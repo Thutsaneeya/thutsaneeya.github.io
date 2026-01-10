@@ -1,14 +1,14 @@
 # main text of home
 title: Thutsaneeya Chanrong
-bio: Learning | Analyzing | Building with Data | Reading
+bio: Learning|Analyzing|Building with Data|Reading
 
 # twitter summary info
-description: 'Carpe Diem'
+#description: 'Carpe Diem'
 
 # if it's an external image, update below for true
 # better with square images
-#external-image: false
-#picture: assets/images/profile.jpg
+external-image: false
+picture: ""
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
@@ -38,7 +38,7 @@ disqus:
 #twitter: mytwitter
 #instagram: myinstagram
 #linkedin: mylinkedin
-github: https://github.com/Thutsaneeya
+github: Thutsaneeya
 email: thutsaneeya.c@outlook.com
 
 authors:
