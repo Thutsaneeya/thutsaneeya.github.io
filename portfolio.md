@@ -93,49 +93,35 @@ title: Portfolio
     min-height: 4.5rem;           /* ปรับความสูงขั้นต่ำตามขนาดฟอนต์ที่ใหญ่ขึ้น */
   }
 
-/* ก้อนรวม Tech Stack */
+/* 1. จัดระยะห่างให้ก้อน Tech Stack */
   .tech-stack {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     justify-content: center;
-    margin-bottom: 25px;
+    margin-top: 10px;    /* ห่างจากเนื้อหาด้านบน */
+    margin-bottom: 30px; /* เพิ่มระยะห่างก่อนถึงปุ่ม (แก้ตรงนี้แหละ!) */
   }
 
-  /* สไตล์แต่ละ Tag (แคปซูล) */
-  .tech-badge {
-    background: rgba(63, 81, 181, 0.15); /* พื้นหลังม่วงโปร่งแสง */
-    color: #c5cae9; /* สีตัวอักษรม่วงอ่อน */
-    border: 1px solid rgba(63, 81, 181, 0.4); /* เส้นกรอบม่วง Indigo */
-    padding: 4px 12px;
-    border-radius: 50px; /* ทรงแคปซูล */
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    transition: all 0.3s ease;
-  }
-
-  /* เอฟเฟกต์เวลาเมาส์ชี้ที่การ์ด ให้ Tag เรืองแสงตาม */
-  .project-card:hover .tech-badge {
-    border-color: #5c6bc0;
-    background: rgba(63, 81, 181, 0.25);
-    box-shadow: 0 0 10px rgba(92, 107, 192, 0.3); /* เรืองแสงอ่อนๆ */
-    color: #ffffff;
-  }
-  
-  /* 4. ปุ่ม Action */
+  /* 2. จัดระยะห่างระหว่างปุ่ม Code กับ Demo */
   .project-actions {
     display: flex;
-    gap: 12px;
+    gap: 15px;         /* เพิ่มช่องว่างระหว่างปุ่มให้กว้างขึ้น */
+    justify-content: center;
+    margin-top: auto;   /* ดันปุ่มลงไปล่างสุดของการ์ดเสมอ */
+    padding-bottom: 5px;
   }
 
+  /* 3. ปรับขนาดปุ่มให้ดูไม่อึดอัด */
   .btn-view, .btn-demo {
-    padding: 8px 18px;
+    padding: 10px 22px; /* เพิ่ม padding ให้ปุ่มดูอวบอิ่ม สบายตา */
     border-radius: 50px;
     font-size: 0.85rem;
     font-weight: 700;
     text-decoration: none !important;
+    min-width: 90px;    /* กำหนดความกว้างขั้นต่ำให้ปุ่มดูเท่าๆ กัน */
+    text-align: center;
+    transition: 0.3s;
   }
 
   .btn-view {
