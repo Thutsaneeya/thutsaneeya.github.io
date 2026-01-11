@@ -22,5 +22,11 @@
         {% include social-links.html %}
     </header>
 {% endif %}
+{% if page.title and page.title != "Home" %}
+  <div class="page-title-section">
+    <h1 class="page-display-title">{{ page.title | upcase }}</h1>
+    <div class="indigo-divider"></div>
+  </div>
+{% endif %}
 
 {% include nav.html %}
