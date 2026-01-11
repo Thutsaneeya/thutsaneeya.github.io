@@ -1,8 +1,8 @@
 {% if page.title == "Home"
-   or page.title == "Blog"
+   <!--or page.title == "Blog"
    or page.title == "Portfolio"
    or page.title == "Work"
-   or page.title == "Awards"
+   or page.title == "Awards"-->
    or page.title == "Tags"
 %}{% assign showHeader = true %}{% endif %}
 
@@ -29,4 +29,4 @@
 {% endif %}
 
 {{ site.title }}
-<!--{% include nav.html %}-->
+{% include nav.html %}
