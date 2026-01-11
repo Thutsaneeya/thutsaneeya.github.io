@@ -3,28 +3,26 @@ layout: page
 title: Portfolio
 ---
 <style>
-  /* 1. ปรับ Container ให้กว้างขึ้นและกางออก */
+  /* 1. Layout หลัก */
   .project-item {
     display: flex;
-    align-items: center;
-    justify-content: center; /* เปลี่ยนเป็น center เพื่อความบาลานซ์ */
+    align-items: flex-start;
+    justify-content: center;
     margin-bottom: 120px;
-    gap: 80px; /* เพิ่มช่องว่างระหว่างรูปกับข้อความ */
+    gap: 50px;
     width: 100%;
-    max-width: 1100px; /* บังคับความกว้างสูงสุด */
-    margin-left: auto;
-    margin-right: auto;
+    /* ป้องกันไม่ให้โดนบีบจนเละ */
+    flex-wrap: nowrap !important;
   }
   
-  /* บังคับสลับฝั่งฟันปลา */
   .project-item:nth-child(even) { 
     flex-direction: row-reverse !important; 
   }
   
-  /* 2. สัดส่วนรูปภาพ */
+  /* 2. ฝั่งรูปภาพ: คุมขนาดให้คงที่ */
   .project-image { 
-    flex: 1; /* สัดส่วน 1 ต่อ 1.2 */
-    min-width: 400px; /* กันไม่ให้รูปเล็กเกินไป */
+    flex: 0 0 45%; /* รูปเอาไปแค่ 45% พอ */
+    max-width: 500px;
   }
   .project-image img {
     width: 100%;
@@ -33,31 +31,34 @@ title: Portfolio
     transition: 0.4s;
     display: block;
   }
+  .project-image img:hover { transform: scale(1.02); }
 
-  /* 3. สัดส่วนข้อความ - ปรับให้กางออก (Balanced) */
+  /* 3. ฝั่งข้อความ: บังคับให้กางออก */
   .project-info { 
-    flex: 1.2; 
-    text-align: left; /* บังคับชิดซ้ายไม่ว่าธีมจะตั้งมายังไง */
+    flex: 1; /* กินพื้นที่ที่เหลือทั้งหมด */
+    min-width: 320px; /* ไม้ตาย: ห้ามบีบตัวหนังสือจนน้อยกว่า 320px */
+    text-align: left;
   }
 
-  /* 4. Typography & Badges */
   .project-info h2 {
-    font-size: 2.2rem !important; /* ใหญ่ขึ้นนิดนึงให้ดูเป็นหัวข้อ */
+    margin-top: 0;
+    font-size: 2rem !important;
     line-height: 1.2;
-  }
-  
-  .project-info p {
-    font-size: 1.1rem;
-    line-height: 1.8; /* เพิ่มระยะห่างบรรทัดให้อ่านง่าย */
-    color: #4b5563;
-    margin-top: 15px;
-    width: 100%; /* กางข้อความให้เต็มพื้นที่ flex */
+    color: #1a237e;
   }
 
+  .project-info p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #4b5563;
+    width: 100%; /* กางให้เต็ม */
+  }
+
+  /* 4. Badges & Buttons */
   .tech-badge {
     background: #f0f4f8;
     color: #3f51b5;
-    padding: 5px 15px;
+    padding: 5px 14px;
     border-radius: 50px;
     font-size: 0.8rem;
     font-weight: 600;
@@ -69,28 +70,36 @@ title: Portfolio
   .btn-code {
     display: inline-flex;
     align-items: center;
-    margin-top: 30px;
-    padding: 12px 28px;
+    margin-top: 25px;
+    padding: 10px 24px;
     background: #ffffff;
     color: #3f51b5;
     border: 2px solid #3f51b5;
     border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 0.85rem;
     transition: 0.3s;
   }
-  .btn-code:hover { background: #3f51b5; color: white; }
+  .btn-code:hover {
+    background: #3f51b5;
+    color: white;
+  }
 
-  /* 5. Responsive Design (มือถือ) */
-  @media (max-width: 900px) {
+  /* 5. สำหรับมือถือ */
+  @media (max-width: 850px) {
     .project-item, .project-item:nth-child(even) { 
       flex-direction: column !important; 
-      text-align: center !important; 
-      gap: 40px;
+      align-items: center;
+      text-align: center; 
+      gap: 30px;
+    }
+    .project-image, .project-info { 
+      width: 100%; 
+      min-width: 100%;
+      flex: none;
     }
     .project-info { text-align: center; }
-    .project-image { min-width: 100%; }
-    .tech-stack-container { justify-content: center; }
   }
 </style>
 
