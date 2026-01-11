@@ -37,7 +37,7 @@ title: Portfolio
   /* 3. project card */
   .project-card {
     background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(63, 81, 181, 0.3);
+    border: 1px #9300ff/*solid rgba(63, 81, 181, 0.3)*/;
     border-radius: 20px;
     padding: 35px 25px;
     text-align: center;
@@ -119,7 +119,7 @@ title: Portfolio
   .project-card:hover .tech-badge {
     border-color: #5c6bc0;
     background: rgba(63, 81, 181, 0.25);
-    box-shadow: 0 0 10px rgba(92, 107, 192, 0.3); /* เรืองแสงอ่อนๆ */
+    box-shadow: 0 0 10px rgba(92, 107, 192, 0.3);
     color: #ffffff;
   }
   
@@ -208,7 +208,7 @@ title: Portfolio
       <span class="tech-badge">GeoJson</span>
     </div>
     <a href="https://github.com/Thutsaneeya/mental_health_dashboard" class="btn-view">Code</a>
-    <a href="#" class="btn-view">Demo</a>
+    <a href="#" class="btn-demo">Demo</a>
   </div>
 
   <div class="project-card">
