@@ -3,68 +3,93 @@ layout: page
 title: Portfolio
 ---
 <style>
-  /* 1. Layout & Structure */
+  /* 1. ปรับ Container ให้กว้างขึ้นและกางออก */
   .project-item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* เปลี่ยนเป็น center เพื่อความบาลานซ์ */
     margin-bottom: 120px;
-    gap: 60px;
+    gap: 80px; /* เพิ่มช่องว่างระหว่างรูปกับข้อความ */
+    width: 100%;
+    max-width: 1100px; /* บังคับความกว้างสูงสุด */
+    margin-left: auto;
+    margin-right: auto;
   }
-  .project-item:nth-child(even) { flex-direction: row-reverse; }
   
-  .project-image { flex: 1.2; }
+  /* บังคับสลับฝั่งฟันปลา */
+  .project-item:nth-child(even) { 
+    flex-direction: row-reverse !important; 
+  }
+  
+  /* 2. สัดส่วนรูปภาพ */
+  .project-image { 
+    flex: 1; /* สัดส่วน 1 ต่อ 1.2 */
+    min-width: 400px; /* กันไม่ให้รูปเล็กเกินไป */
+  }
   .project-image img {
     width: 100%;
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
     transition: 0.4s;
+    display: block;
   }
-  .project-image img:hover { transform: scale(1.02); }
 
-  .project-info { flex: 1; }
+  /* 3. สัดส่วนข้อความ - ปรับให้กางออก (Balanced) */
+  .project-info { 
+    flex: 1.2; 
+    text-align: left; /* บังคับชิดซ้ายไม่ว่าธีมจะตั้งมายังไง */
+  }
 
-  /* 2. Typography & Buttons */
+  /* 4. Typography & Badges */
+  .project-info h2 {
+    font-size: 2.2rem !important; /* ใหญ่ขึ้นนิดนึงให้ดูเป็นหัวข้อ */
+    line-height: 1.2;
+  }
+  
+  .project-info p {
+    font-size: 1.1rem;
+    line-height: 1.8; /* เพิ่มระยะห่างบรรทัดให้อ่านง่าย */
+    color: #4b5563;
+    margin-top: 15px;
+    width: 100%; /* กางข้อความให้เต็มพื้นที่ flex */
+  }
+
+  .tech-badge {
+    background: #f0f4f8;
+    color: #3f51b5;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 1px solid #dbeafe;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
   .btn-code {
     display: inline-flex;
     align-items: center;
-    margin-top: 25px;
-    padding: 10px 24px;
+    margin-top: 30px;
+    padding: 12px 28px;
     background: #ffffff;
     color: #3f51b5;
     border: 2px solid #3f51b5;
     border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 0.85rem;
     transition: 0.3s;
   }
-  .btn-code:hover {
-    background: #3f51b5;
-    color: white;
-    box-shadow: 0 5px 15px rgba(63, 81, 181, 0.3);
-  }
+  .btn-code:hover { background: #3f51b5; color: white; }
 
-  /* 3. Badges */
-  .tech-badge {
-    background: #f0f4f8;
-    color: #3f51b5;
-    padding: 4px 12px;
-    border-radius: 50px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    border: 1px solid #dbeafe;
-    display: inline-block;
-  }
-
-  /* 4. Responsive Design */
-  @media (max-width: 850px) {
+  /* 5. Responsive Design (มือถือ) */
+  @media (max-width: 900px) {
     .project-item, .project-item:nth-child(even) { 
-      flex-direction: column; 
-      text-align: center; 
-      gap: 30px;
+      flex-direction: column !important; 
+      text-align: center !important; 
+      gap: 40px;
     }
-    .project-image { width: 100%; }
+    .project-info { text-align: center; }
+    .project-image { min-width: 100%; }
     .tech-stack-container { justify-content: center; }
   }
 </style>
@@ -108,6 +133,9 @@ title: Portfolio
         <span class="tech-badge">NumPy</span>
         <span class="tech-badge">Matplotlib</span> 
         <span class="tech-badge">Seaborn</span>
+        <span class="tech-badge">Plotly</span>
+        <span class="tech-badge">WordCloud</span> 
+        <span class="tech-badge">TextBlob</span>
       </div>
       <a href="https://github.com/Thutsaneeya/goodreads_by_genre" target="_blank" class="btn-code">Code 🚀</a>
     </div>
