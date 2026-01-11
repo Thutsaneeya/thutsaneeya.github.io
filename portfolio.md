@@ -3,102 +3,95 @@ layout: page
 title: Portfolio
 ---
 <style>
-  /* 1. Layout หลัก */
+  /* 1. Layout หลัก - กางออกเต็มพื้นที่ใหม่ */
   .project-item {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center; /* เปลี่ยนเป็น center เพื่อความสมดุลของรูปและข้อความ */
+    justify-content: space-between;
     margin-bottom: 120px;
-    gap: 50px;
+    gap: 60px; /* เพิ่มระยะห่างให้ดูโปร่งขึ้น */
     width: 100%;
-    /* ป้องกันไม่ให้โดนบีบจนเละ */
-    flex-wrap: nowrap !important;
   }
   
+  /* ท่าฟันปลา สลับซ้าย-ขวา */
   .project-item:nth-child(even) { 
     flex-direction: row-reverse !important; 
   }
   
-  /* 2. ฝั่งรูปภาพ: คุมขนาดให้คงที่ */
+  /* 2. ฝั่งรูปภาพ */
   .project-image { 
-    flex: 0 0 45%; /* รูปเอาไปแค่ 45% พอ */
+    flex: 1; 
     max-width: 500px;
   }
   .project-image img {
     width: 100%;
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    border-radius: 15px; /* ปรับให้ล้อไปกับไฟล์ Sass ที่แก้ใหม่ */
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
     transition: 0.4s;
     display: block;
   }
-  .project-image img:hover { transform: scale(1.02); }
+  .project-image img:hover { transform: scale(1.03); }
 
-  /* 3. ฝั่งข้อความ: บังคับให้กางออก */
+  /* 3. ฝั่งข้อความ - เลิกเป็นแนวตั้งแน่นอน */
   .project-info { 
-    flex: 1; /* กินพื้นที่ที่เหลือทั้งหมด */
-    min-width: 320px; /* ไม้ตาย: ห้ามบีบตัวหนังสือจนน้อยกว่า 320px */
+    flex: 1; 
     text-align: left;
   }
 
   .project-info h2 {
     margin-top: 0;
-    font-size: 2rem !important;
-    line-height: 1.2;
+    font-size: 2.2rem !important; /* ปรับขนาดให้เข้ากับ Wrapper ใหม่ */
     color: #1a237e;
+    line-height: 1.2;
   }
 
   .project-info p {
-    font-size: 1.05rem;
-    line-height: 1.7;
+    font-size: 1.1rem;
+    line-height: 1.8;
     color: #4b5563;
-    width: 100%; /* กางให้เต็ม */
   }
 
   /* 4. Badges & Buttons */
   .tech-badge {
     background: #f0f4f8;
     color: #3f51b5;
-    padding: 5px 14px;
+    padding: 5px 15px;
     border-radius: 50px;
     font-size: 0.8rem;
     font-weight: 600;
     border: 1px solid #dbeafe;
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    margin-right: 5px;
   }
 
   .btn-code {
     display: inline-flex;
     align-items: center;
     margin-top: 25px;
-    padding: 10px 24px;
+    padding: 12px 28px;
     background: #ffffff;
     color: #3f51b5;
     border: 2px solid #3f51b5;
     border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 0.85rem;
     transition: 0.3s;
   }
   .btn-code:hover {
     background: #3f51b5;
     color: white;
+    box-shadow: 0 5px 15px rgba(63, 81, 181, 0.3);
   }
 
-  /* 5. สำหรับมือถือ */
+  /* 5. รองรับมือถือ */
   @media (max-width: 850px) {
     .project-item, .project-item:nth-child(even) { 
       flex-direction: column !important; 
-      align-items: center;
       text-align: center; 
       gap: 30px;
     }
-    .project-image, .project-info { 
-      width: 100%; 
-      min-width: 100%;
-      flex: none;
-    }
+    .project-image { max-width: 100%; }
     .project-info { text-align: center; }
   }
 </style>
