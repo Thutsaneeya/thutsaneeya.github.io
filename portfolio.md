@@ -125,15 +125,23 @@ title: Portfolio
   
   /* 5. Action */
   .project-actions {
-    display: flex;
-    gap: 12px;
+    display: flex !important;   
+    flex-direction: row !important;
+    gap: 15px;                  
+    justify-content: center;    
+    width: 100%;                
+    margin-top: auto;           
   }
 
   .btn-view, .btn-demo {
-    padding: 8px 18px;
+    flex: 1;                    
+    max-width: 120px;           
+    text-align: center;         
+    padding: 10px 18px;
     border-radius: 50px;
     font-size: 0.85rem;
     font-weight: 700;
+    white-space: nowrap;        
     text-decoration: none !important;
   }
 
