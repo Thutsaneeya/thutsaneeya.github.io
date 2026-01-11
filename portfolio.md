@@ -105,7 +105,7 @@ title: Portfolio
     <div class="project-info">
       <h2 style="margin-bottom: 8px; font-size: 1.8rem; font-weight: 800;">✈️ Flight Ticket Price Analysis</h2>
       <h3 style="display: inline-block; background: #e8eaf6; color: #3f51b5; padding: 5px 12px; border-radius: 8px; font-size: 1rem; font-weight: 700; margin-bottom: 15px; border-left: 5px solid #3f51b5;">Market Insights & Pricing Patterns</h3>
-      <p style="color: #4b5563; line-height: 1.6; font-size: 1rem;">
+      <p class="project-desc">
       Explores the distribution and variability of flight ticket prices. Applies data cleaning and visualization to uncover actionable market insights.
       </p>
       <div class="tech-stack-container" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 15px;">
