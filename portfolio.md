@@ -3,6 +3,123 @@ layout: page
 title: Portfolio
 ---
 <style>
+  /* 1. สร้างตาราง 2x2 */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* แบ่ง 2 คอลัมน์เท่ากัน */
+    gap: 30px; /* ระยะห่างระหว่างการ์ด */
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  /* 2. สไตล์ของการ์ดแต่ละใบ */
+  .project-card {
+    background: #ffffff;
+    border: 1px solid #e0e6ed;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    border-color: #3f51b5; /* สี Indigo ตอนเอาเมาส์ชี้ */
+  }
+
+  /* 3. อิโมจิกรุบกริบ */
+  .project-emoji {
+    font-size: 50px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .project-card h2 {
+    margin: 0 0 15px 0 !important;
+    font-size: 2.2rem !important;
+    /* สี H2 จะดึงมาจากธีม Indigo ที่คุณ Nana ตั้งไว้ใน Sass อัตโนมัติ */
+  }
+
+  .project-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #546e7a;
+    margin-bottom: 25px;
+  }
+
+  /* 4. ปุ่มเข้าชม */
+  .btn-view {
+    text-decoration: none;
+    color: #3f51b5;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 8px 20px;
+    border: 2px solid #3f51b5;
+    border-radius: 50px;
+    transition: 0.3s;
+  }
+  .btn-view:hover {
+    background: #3f51b5;
+    color: white;
+  }
+
+  /* ปรับให้เหลือ 1 คอลัมน์ตอนดูในมือถือ */
+  @media (max-width: 768px) {
+    .project-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="project-grid">
+
+  <div class="project-card">
+    <span class="project-emoji">✈️</span>
+    <h2>Flight Ticket Price Analysis</h2>
+     <h3>Market Insights & Pricing Patterns</h3>
+    <p>
+        Explores the distribution and variability of flight ticket prices. Applies data cleaning and visualization to uncover actionable market insights.
+    </p>
+    <div class="tech-stack-container" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 15px;">
+        <span class="tech-badge">Python</span> 
+        <span class="tech-badge">Pandas</span> 
+        <span class="tech-badge">NumPy</span>
+        <span class="tech-badge">Matplotlib</span> 
+        <span class="tech-badge">Seaborn</span>
+    </div>
+    <a href="https://github.com/Thutsaneeya/flight_pricing" target="_blank" class="btn-code">Code 🚀</a>
+  </div>
+
+  <div class="project-card">
+    <span class="project-emoji">📊</span>
+    <h2>Sales Dashboard</h2>
+    <p>Interactive sales performance tracking with Tableau.</p>
+    <a href="#" class="btn-view">View Project</a>
+  </div>
+
+  <div class="project-card">
+    <span class="project-emoji">🧪</span>
+    <h2>A/B Testing</h2>
+    <p>Statistical analysis for website conversion optimization.</p>
+    <a href="#" class="btn-view">Read Case Study</a>
+  </div>
+
+  <div class="project-card">
+    <span class="project-emoji">🧠</span>
+    <h2>ML Model</h2>
+    <p>Predicting customer churn using Random Forest algorithm.</p>
+    <a href="#" class="btn-view">Explore GitHub</a>
+  </div>
+
+</div>
+
+/*<style>
   /* 1. Layout หลัก - กางออกเต็มพื้นที่ใหม่ */
   .project-item {
     display: flex;
@@ -95,8 +212,9 @@ title: Portfolio
     .project-info { text-align: center; }
   }
 </style>
+*/
 
-<div id="projects" style="padding: 60px 5%;">
+<!--<div id="projects" style="padding: 60px 5%;">
 
   <div class="project-item">
     <div class="project-image">
@@ -196,5 +314,5 @@ title: Portfolio
       <a href="https://github.com/Thutsaneeya/german_credit_risk" target="_blank" class="btn-code">Code 🚀</a>
     </div>
   </div>
-
 </div>
+-->
