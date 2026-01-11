@@ -36,7 +36,7 @@ title: Portfolio
 
   /* 3. project card */
   .project-card {
-    background: #999/*rgba(255, 255, 255, 0.02)*/;
+    background: rgba(255, 255, 255, 0.02);
     border: 1px solid #9300ff/*solid rgba(63, 81, 181, 0.3)*/;
     border-radius: 20px;
     padding: 35px 25px;
@@ -50,7 +50,7 @@ title: Portfolio
 
   .project-card:hover {
     transform: translateY(-10px);
-    border-color: #3f51b5;
+    border-color: #999/*#3f51b5*/;
     background: rgba(63, 81, 181, 0.05);
     box-shadow: 0 15px 30px rgba(63, 81, 181, 0.2);
   }
