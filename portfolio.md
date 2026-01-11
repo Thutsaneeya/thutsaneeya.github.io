@@ -37,7 +37,7 @@ title: Portfolio
   /* 3. project card */
   .project-card {
     background: rgba(255, 255, 255, 0.02);
-    border: 1px #9300ff/*solid rgba(63, 81, 181, 0.3)*/;
+    border: 1px solid #9300ff/*solid rgba(63, 81, 181, 0.3)*/;
     border-radius: 20px;
     padding: 35px 25px;
     text-align: center;
@@ -137,15 +137,15 @@ title: Portfolio
     text-decoration: none !important;
   }
 
-  .btn-view {
+  .btn-view, .btn-demo{
     border: 1px solid rgba(63, 81, 181, 0.5);
     color: #9fa8da !important;
   }
 
-  .btn-demo {
+  /*.btn-demo {
     background: #3f51b5;
     color: white !important;
-  }
+  }*/
 
   /* มือถือเหลือ 1 คอลัมน์ */
   @media (max-width: 768px) {
