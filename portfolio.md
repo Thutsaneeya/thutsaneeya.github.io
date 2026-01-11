@@ -60,20 +60,70 @@ title: Portfolio
     margin-bottom: 20px;
   }
 
-  .project-card h2 {
-    font-size: 1.8rem !important;
-    color: #c5cae9 !important;
-    margin-bottom: 10px !important;
+ .project-card h2 {
+    font-size: 1.5rem !important; /* ปรับลดจาก 1.8 ให้พอดีกับชื่อยาว */
+    font-weight: 800 !important;
+    color: #e8eaf6 !important; /* สีขาวอมม่วง สว่างเด่น */
+    margin: 0 0 5px 0 !important;
+    line-height: 1.2 !important;
+    min-height: 3.6rem; /* บังคับความสูง 2 บรรทัด เพื่อให้การ์ดเท่ากัน */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
+  /* ปรับแต่งหัวข้อรอง (H3) ให้เล็กลงและดูเป็นระเบียบ */
+  .project-card h3 {
+    font-size: 0.95rem !important; /* เล็กกว่า H2 ชัดเจน */
+    font-weight: 500 !important;
+    color: #9fa8da !important; /* สีม่วงจางลงมาหน่อย */
+    margin: 0 0 15px 0 !important;
+    text-transform: uppercase; /* ทำเป็นตัวพิมพ์ใหญ่เล็กๆ จะดูโปรขึ้น */
+    letter-spacing: 1px;
+  }
+
+ /* ปรับเนื้อหาให้อ่านง่าย สบายตา */
   .project-card p {
-    font-size: 1rem !important;
-    color: #b0bec5 !important;
-    line-height: 1.6;
+    font-size: 1.15rem !important; /* ขนาดใหญ่ขึ้นแบบกำลังดี */
+    color: #cfd8dc !important;    /* ปรับสีให้สว่างขึ้นอีกนิดเพื่อตัดกับพื้นหลัง */
+    line-height: 1.7 !important;   /* เพิ่มระยะห่างระหว่างบรรทัด ไม่ให้ดูเบียด */
     margin-bottom: 25px !important;
-    flex-grow: 1;
+    font-weight: 400;
+    max-width: 90% ;              /* เว้นขอบซ้ายขวานิดหน่อยให้อ่านง่าย */
+    min-height: 4.5rem;           /* ปรับความสูงขั้นต่ำตามขนาดฟอนต์ที่ใหญ่ขึ้น */
   }
 
+/* ก้อนรวม Tech Stack */
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  /* สไตล์แต่ละ Tag (แคปซูล) */
+  .tech-badge {
+    background: rgba(63, 81, 181, 0.15); /* พื้นหลังม่วงโปร่งแสง */
+    color: #c5cae9; /* สีตัวอักษรม่วงอ่อน */
+    border: 1px solid rgba(63, 81, 181, 0.4); /* เส้นกรอบม่วง Indigo */
+    padding: 4px 12px;
+    border-radius: 50px; /* ทรงแคปซูล */
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+  }
+
+  /* เอฟเฟกต์เวลาเมาส์ชี้ที่การ์ด ให้ Tag เรืองแสงตาม */
+  .project-card:hover .tech-badge {
+    border-color: #5c6bc0;
+    background: rgba(63, 81, 181, 0.25);
+    box-shadow: 0 0 10px rgba(92, 107, 192, 0.3); /* เรืองแสงอ่อนๆ */
+    color: #ffffff;
+  }
+  
   /* 4. ปุ่ม Action */
   .project-actions {
     display: flex;
