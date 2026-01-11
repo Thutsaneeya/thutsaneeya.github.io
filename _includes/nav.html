@@ -1,3 +1,51 @@
+<nav class="{% if page.title == 'Home' %}nav-home{% else %}nav{% endif %}">
+    <ul class="list">
+        <li class="item brand-left">
+            <a class="link" href="{{ site.url }}/">
+                {{ site.title | upcase }}
+            </a>
+        </li>
+
+        <div class="menu-right-group">
+            {% if page.title != "Home" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/">Home</a>
+                </li>
+            {% endif %}
+
+            {% if site.blog == true and page.title != "Blog" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/blog">Blog</a>
+                </li>
+            {% endif %}
+
+            {% if site.portfolio == true and page.title != "Portfolio" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/portfolio">Portfolio</a>
+                </li>
+            {% endif %}
+            
+            {% if site.work == true and page.title != "Work" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/work">Work</a>
+                </li>
+            {% endif %}
+
+            {% if site.awards == true and page.title != "Awards" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/awards">Awards</a>
+                </li>
+            {% endif %}
+
+            {% if site.resume == true %}
+                <li class="item">
+                    <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
+                </li>
+            {% endif %}
+        </div>
+    </ul>
+</nav>
+<!--
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
     <ul class="list">
         {% if page.title != "Home" %}
@@ -46,3 +94,4 @@
         {% endif %}
     </ul>
 </nav>
+-->
