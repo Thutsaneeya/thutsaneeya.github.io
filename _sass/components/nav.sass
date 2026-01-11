@@ -4,8 +4,6 @@
         list-style: none
         margin: 0
         padding: 0 13px 0
-        display: flex              // เพิ่มเพื่อให้จัดซ้ายขวาได้
-        align-items: center
 
         > .item
             display: inline-block
@@ -19,38 +17,21 @@
 
 .nav
     position: absolute
-    left: 0                        // ปรับจาก right เป็น 0 ทั้งคู่เพื่อให้เต็มแถว
     right: 0
     top: 0
 
     > .list
-        justify-content: space-between // ดันชื่อไปซ้าย เมนูไปขวา
-        padding: 0 25px 0
+        padding: 0 13px 0
 
-        // สไตล์ชื่อเรา (มุมซ้าย)
-        .brand-left > .link
-            font-size: 2rem        // ตัวใหญ่สะใจตามบรีฟ
-            font-weight: 900       // หนาปึ้ก
-            color: $alpha          // สีหลักของธีม (Indigo)
-            text-transform: uppercase
-            letter-spacing: 2px
-
-        // กลุ่มเมนู (มุมขวา)
-        .menu-right-group
-            display: flex
-            list-style: none
-            
-            > .item > .link
-                font-size: 1.4rem
-                padding: 20px 10px
-                text-transform: uppercase // ตัวพิมพ์ใหญ่สวยกว่าจริงแก
+        > .item > .link
+            font-size: 1.4rem
+            padding: 20px 10px
 
 .nav-home
     margin-top: 40px
     text-align: center
 
     > .list
-        justify-content: center    // หน้า Home ให้เมนูอยู่ตรงกลางเหมือนเดิม
         padding: 0
 
         > .item > .link
@@ -59,7 +40,7 @@
             margin: 0
             border-radius: 4%
             transition: all .4s ease-in-out
-            width: auto            // ปรับจาก 70px เป็น auto จะได้ไม่เบียด
+            width: 70px
 
             &:hover
                 color: $alpha
