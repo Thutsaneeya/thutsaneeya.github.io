@@ -73,7 +73,7 @@ title: Portfolio
 
   <div class="project-item">
     <div class="project-image">
-      <img src="assets/img/airport.png" alt="Flight Pricing">
+      <img src="/assets/img/airport.png" alt="Project 1">
     </div>
     <div class="project-info">
       <h2 style="color: #1a237e; margin-bottom: 8px; font-size: 1.8rem; font-weight: 800;">✈️ Flight Ticket Price Analysis</h2>
@@ -94,7 +94,7 @@ title: Portfolio
 
   <div class="project-item">
     <div class="project-image">
-      <img src="assets/img/reading.png" alt="Project 2">
+      <img src="/assets/img/reading.png" alt="Project 2">
     </div>
     <div class="project-info">
       <h2 style="color: #1a237e; margin-bottom: 8px; font-size: 1.8rem; font-weight: 800;">📚 Reading Behavior Analysis: Mystery, Thriller & Crime</h2>
@@ -115,7 +115,7 @@ title: Portfolio
 
   <div class="project-item">
     <div class="project-image">
-      <img src="assets/img/contemplating.png" alt="Project 3">
+      <img src="/assets/img/contemplating.png" alt="Project 3">
     </div>
     <div class="project-info">
       <h2 style="color: #1a237e; margin-bottom: 8px; font-size: 1.8rem; font-weight: 800;">
@@ -142,7 +142,7 @@ title: Portfolio
 
   <div class="project-item">
     <div class="project-image">
-      <img src="assets/img/server.png" alt="Project 4">
+      <img src="/assets/img/server.png" alt="Project 4">
     </div>
     <div class="project-info">
       <h2 style="color: #1a237e; margin-bottom: 8px; font-size: 1.8rem; font-weight: 800;">
