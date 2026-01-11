@@ -125,23 +125,15 @@ title: Portfolio
   
   /* 5. Action */
   .project-actions {
-    display: flex !important;   
-    flex-direction: row !important;
-    gap: 15px;                  
-    justify-content: center;    
-    width: 100%;                
-    margin-top: auto;           
+    display: flex;
+    gap: 12px;
   }
 
   .btn-view, .btn-demo {
-    flex: 1;                    
-    max-width: 120px;           
-    text-align: center;         
-    padding: 10px 18px;
+    padding: 8px 18px;
     border-radius: 50px;
     font-size: 0.85rem;
     font-weight: 700;
-    white-space: nowrap;        
     text-decoration: none !important;
   }
 
@@ -153,7 +145,7 @@ title: Portfolio
   /*.btn-demo {
     background: #3f51b5;
     color: white !important;
-  }*/
+  }
 
   /* มือถือเหลือ 1 คอลัมน์ */
   @media (max-width: 768px) {
@@ -177,7 +169,9 @@ title: Portfolio
         <span class="tech-badge">Matplotlib</span> 
         <span class="tech-badge">Seaborn</span>
     </div>
-    <a href="https://github.com/Thutsaneeya/flight_pricing" target="_blank" class="btn-view">Code</a>
+    <div class="project-actions">
+      <a href="https://github.com/Thutsaneeya/flight_pricing" target="_blank" class="btn-view">Code</a>
+    </div>
   </div>
 
   <div class="project-card">
@@ -197,7 +191,9 @@ title: Portfolio
       <span class="tech-badge">WordCloud</span> 
       <span class="tech-badge">TextBlob</span>
     </div>
-    <a href="https://github.com/Thutsaneeya/flight_pricing" class="btn-view">Code</a>
+    <div class="project-actions">
+      <a href="https://github.com/Thutsaneeya/goodreads_by_genre" class="btn-view">Code</a>
+    </div>
   </div>
 
   <div class="project-card">
@@ -215,8 +211,10 @@ title: Portfolio
       <span class="tech-badge">Streamlit</span>
       <span class="tech-badge">GeoJson</span>
     </div>
-    <a href="https://github.com/Thutsaneeya/mental_health_dashboard" class="btn-view">Code</a>
-    <a href="#" class="btn-demo">Demo</a>
+    <div class="project-actions">
+      <a href="https://github.com/Thutsaneeya/mental_health_dashboard" class="btn-view">Code</a>
+      <a href="#" class="btn-demo">Demo</a>
+    </div>
   </div>
 
   <div class="project-card">
@@ -235,7 +233,9 @@ title: Portfolio
       <span class="tech-badge">DuckDB</span> 
       <span class="tech-badge">Scikit-learn</span>
     </div>
-    <a href="https://github.com/Thutsaneeya/german_credit_risk" class="btn-view">Code</a>
+    <div class="project-actions">
+      <a href="https://github.com/Thutsaneeya/german_credit_risk" class="btn-view">Code</a>
+    </div>
   </div>
 </div>
 
