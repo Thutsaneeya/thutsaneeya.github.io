@@ -36,7 +36,7 @@ title: Portfolio
 
   /* 3. project card */
   .project-card {
-    background: rgba(255, 255, 255, 0.02);
+    background: #999/*rgba(255, 255, 255, 0.02)*/;
     border: 1px solid #9300ff/*solid rgba(63, 81, 181, 0.3)*/;
     border-radius: 20px;
     padding: 35px 25px;
