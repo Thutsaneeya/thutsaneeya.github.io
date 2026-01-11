@@ -3,7 +3,7 @@ layout: page
 title: Portfolio
 ---
 <style>
-  /* 1. Header & Title ส่วนกลางหน้า */
+  /* 1. Header & Title */
   .portfolio-header {
     text-align: center;
     padding: 60px 0 30px 0;
@@ -34,7 +34,7 @@ title: Portfolio
     margin-top: 20px;
   }
 
-  /* 3. การ์ดโปร่งแสง เน้นเส้นกรอบ */
+  /* 3. project card */
   .project-card {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(63, 81, 181, 0.3);
@@ -61,67 +61,80 @@ title: Portfolio
   }
 
  .project-card h2 {
-    font-size: 1.5rem !important; /* ปรับลดจาก 1.8 ให้พอดีกับชื่อยาว */
+    font-size: 1.5rem !important; 
     font-weight: 800 !important;
-    color: #e8eaf6 !important; /* สีขาวอมม่วง สว่างเด่น */
+    color: #e8eaf6 !important; 
     margin: 0 0 5px 0 !important;
     line-height: 1.2 !important;
-    min-height: 3.6rem; /* บังคับความสูง 2 บรรทัด เพื่อให้การ์ดเท่ากัน */
+    min-height: 3.6rem; 
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  /* ปรับแต่งหัวข้อรอง (H3) ให้เล็กลงและดูเป็นระเบียบ */
   .project-card h3 {
-    font-size: 0.95rem !important; /* เล็กกว่า H2 ชัดเจน */
+    font-size: 0.95rem !important; 
     font-weight: 500 !important;
-    color: #9fa8da !important; /* สีม่วงจางลงมาหน่อย */
+    color: #9fa8da !important; 
     margin: 0 0 15px 0 !important;
-    text-transform: uppercase; /* ทำเป็นตัวพิมพ์ใหญ่เล็กๆ จะดูโปรขึ้น */
+    text-transform: uppercase; 
     letter-spacing: 1px;
   }
 
- /* ปรับเนื้อหาให้อ่านง่าย สบายตา */
   .project-card p {
-    font-size: 1.15rem !important; /* ขนาดใหญ่ขึ้นแบบกำลังดี */
-    color: #cfd8dc !important;    /* ปรับสีให้สว่างขึ้นอีกนิดเพื่อตัดกับพื้นหลัง */
-    line-height: 1.7 !important;   /* เพิ่มระยะห่างระหว่างบรรทัด ไม่ให้ดูเบียด */
+    font-size: 1.15rem !important; 
+    color: #cfd8dc !important;   
+    line-height: 1.7 !important;   
     margin-bottom: 25px !important;
     font-weight: 400;
-    max-width: 90% ;              /* เว้นขอบซ้ายขวานิดหน่อยให้อ่านง่าย */
-    min-height: 4.5rem;           /* ปรับความสูงขั้นต่ำตามขนาดฟอนต์ที่ใหญ่ขึ้น */
+    max-width: 90% ;           
+    min-height: 4.5rem;          
   }
 
-/* 1. จัดระยะห่างให้ก้อน Tech Stack */
+/* 4. Tech Stack */
   .tech-stack {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     justify-content: center;
-    margin-top: 10px;    /* ห่างจากเนื้อหาด้านบน */
-    margin-bottom: 30px; /* เพิ่มระยะห่างก่อนถึงปุ่ม (แก้ตรงนี้แหละ!) */
+    margin-top: 20px;
+    margin-bottom: 35px;
   }
 
-  /* 2. จัดระยะห่างระหว่างปุ่ม Code กับ Demo */
+  /* Tag */
+  .tech-badge {
+    background: rgba(63, 81, 181, 0.15); 
+    color: #c5cae9; /* text */
+    border: 1px solid rgba(63, 81, 181, 0.4); 
+    padding: 4px 12px;
+    border-radius: 50px; /* capsule */
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+  }
+
+  /*  hover */
+  .project-card:hover .tech-badge {
+    border-color: #5c6bc0;
+    background: rgba(63, 81, 181, 0.25);
+    box-shadow: 0 0 10px rgba(92, 107, 192, 0.3); /* เรืองแสงอ่อนๆ */
+    color: #ffffff;
+  }
+  
+  /* 5. Action */
   .project-actions {
     display: flex;
-    gap: 15px;         /* เพิ่มช่องว่างระหว่างปุ่มให้กว้างขึ้น */
-    justify-content: center;
-    margin-top: auto;   /* ดันปุ่มลงไปล่างสุดของการ์ดเสมอ */
-    padding-bottom: 5px;
+    gap: 12px;
   }
 
-  /* 3. ปรับขนาดปุ่มให้ดูไม่อึดอัด */
   .btn-view, .btn-demo {
-    padding: 10px 22px; /* เพิ่ม padding ให้ปุ่มดูอวบอิ่ม สบายตา */
+    padding: 8px 18px;
     border-radius: 50px;
     font-size: 0.85rem;
     font-weight: 700;
     text-decoration: none !important;
-    min-width: 90px;    /* กำหนดความกว้างขั้นต่ำให้ปุ่มดูเท่าๆ กัน */
-    text-align: center;
-    transition: 0.3s;
   }
 
   .btn-view {
@@ -149,7 +162,7 @@ title: Portfolio
     <p>
         Explores the distribution and variability of flight ticket prices. Applies data cleaning and visualization to uncover actionable market insights.
     </p>
-    <div class="tech-stack-container" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 15px;">
+    <div class="tech-stack">
         <span class="tech-badge">Python</span> 
         <span class="tech-badge">Pandas</span> 
         <span class="tech-badge">NumPy</span>
@@ -166,7 +179,7 @@ title: Portfolio
     <p>
       Investigates reader preferences in the Mystery & Crime genre using the Goodreads dataset. Analyzes factors like ratings and publication years through EDA, Sentiment Analysis, and WordCloud visualization.
     </p>
-    <div class="tech-stack-container" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 15px;">
+    <div class="tech-stack">
       <span class="tech-badge">Python</span> 
       <span class="tech-badge">Pandas</span> 
       <span class="tech-badge">NumPy</span>
@@ -186,7 +199,7 @@ title: Portfolio
     <p>
       An interactive Streamlit dashboard visualizing provincial-level mental health data in Thailand. Features year-over-year (YoY) trends, choropleth maps, heatmaps, and disease-ranking KPI cards.
     </p>
-    <div class="tech-stack-container" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 15px;">
+    <div class="tech-stack">
       <span class="tech-badge">Python</span> 
       <span class="tech-badge">Pandas</span> 
       <span class="tech-badge">Plotly</span>
@@ -205,7 +218,7 @@ title: Portfolio
     <p>
       Builds a complete ETL pipeline using the German Credit Dataset. Utilizes DuckDB and SQL for high-performance data transformation, followed by a Logistic Regression model to predict customer credit risk.
     </p>
-    <div class="tech-stack-container" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 15px;">
+    <div class="tech-stack">
       <span class="tech-badge">Python</span> 
       <span class="tech-badge">Pandas</span> 
       <span class="tech-badge">NumPy</span>
