@@ -64,7 +64,7 @@ width: normal
 portfolio: true
 
 # if you don't need "about" or "blog", comment them out below
-work: "Work Experiences"
+work: true
 awards: true
 #blog: true
 
