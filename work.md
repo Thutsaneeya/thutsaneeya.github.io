@@ -6,9 +6,9 @@ title: Work Experiences
 <div class="main-timeline">
     <div class="timeline-box">
         <div class="timeline-content">
-            <span class="emoji">🚀</span>
-            <span class="date">October 2025</span>
-            <h2>Tata Group Data Analytics Job Simulation on Forage</h2>
+            <span class="project-emoji">🚀</span>
+            <h3>October 2025</h3>
+            <h2>Tata Group | GenAI Powered Data Analytics Job Simulation on Forage</h2>
             <ul class="exp-bullets">
                 <li>
                 Exploratory Data Analysis (EDA): Applied GenAI-integrated workflows to assess data 	quality and identify key risk indicators, providing a solid foundation for predictive modeling in financial services.
@@ -19,14 +19,14 @@ title: Work Experiences
                 <li>AI-Driven Collections Strategy: Architected an automated collections strategy leveraging Agentic AI. Integrated Ethical AI principles and regulatory compliance into a scalable implementation framework for financial stability.
                 </li>
             </ul>
-            <a href="#" class="cert-btn" target="_blank">Credential ↗</a>
+            <a href="#" class="btn-view" target="_blank">Credential ↗</a>
         </div>
     </div>
     <div class="timeline-box">
         <div class="timeline-content">
-            <span class="emoji">🎨</span>
-            <span class="date">July - October 2020</span>
-            <h2>IT Trainee | Transitions Optical (Thailand) LTD. (Internship)</h2>
+            <span class="project-emoji">🎨</span>
+            <h3>July - October 2020</h3>
+            <h2>Transitions Optical (Thailand) LTD. | IT Trainee (Internship)</h2>
             <p class="exp-subtitle">Windows Application Development & Systems Analysis</p>
             <ul class="exp-bullets">
                 <li>
@@ -42,7 +42,7 @@ title: Work Experiences
                 Team Collaboration: Participated in technical meetings with developers and users to ensure project alignment and smooth implementation.
                 </li>
             </ul>
-            <a href="#" class="cert-btn" target="_blank">Credential ↗</a>
+            <a href="#" class="class=btn-view" target="_blank">Credential ↗</a>
         </div>
     </div>
 </div>
