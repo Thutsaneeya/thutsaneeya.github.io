@@ -53,45 +53,34 @@
         margin-bottom: 10px
 
 .exp-bullets
-  list-style: none
-  padding: 0
-  margin: 20px 0
+    list-style: none
+    padding-left: 0
+    margin: 15px 0
+    
+    li
+        position: relative
+        padding-left: 20px
+        margin-bottom: 10px
+        line-height: 1.6
+        
+        &::before
+            content: '•'
+            position: absolute
+            left: 0
+            color: $alpha
+            font-weight: bold
+        
+        strong
+            color: $delta
+            font-weight: 700
+            letter-spacing: 0.3px
+            margin-right: 4px
 
-  li
-    position: relative
-    padding-left: 25px      // เว้นที่ให้ขีดสีม่วงข้างหน้า
-    margin-bottom: 18px     // ระยะห่างระหว่างข้อ (Gap)
-    font-size: 1.05rem      // ขนาดกำลังดีสำหรับอ่านยาวๆ
-    line-height: 1.7        // เพิ่มความโปร่งให้บรรทัด
-    color: rgba(232, 234, 246, 0.8) // สีขาวคราม Indigo จางๆ
-    text-align: justify     // จัดขอบให้ตรงกริ๊บแบบนิตยสาร
-    transition: all 0.3s ease
+        u
+            text-decoration: none
+            border-bottom: 1px solid rgba($beta, 0.6)
+            color: $omega
 
-    // ขีดสีม่วงสไตล์ Minimal หน้าข้อ
-    &::before
-      content: ''
-      position: absolute
-      left: 0
-      top: 12px             // ให้กึ่งกลางบรรทัดแรก
-      width: 12px           // ความยาวของขีด
-      height: 2px           // ความหนาของขีด
-      background: $alpha    // สีหลัก Indigo ของแก
-      border-radius: 2px
-
-    // เน้นหัวข้อสีม่วงสว่าง
-    strong
-      color: $alpha
-      font-weight: 700
-      letter-spacing: 0.3px
-      margin-right: 4px
-
-    // ขีดเส้นใต้เน้น Tech Stack พิเศษ
-    u
-      text-decoration: none
-      border-bottom: 1px solid rgba($beta, 0.6)
-      color: #fff
-
-    // เอฟเฟกต์เวลาเอาเมาส์ชี้ (Hover)
-    &:hover
-      color: #fff
-      transform: translateX(5px) // ขยับนิดๆ ให้ดูมีชีวิต
+        &:hover
+            color: $omega
+            transform: translateX(5px) 
