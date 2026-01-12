@@ -11,12 +11,13 @@ title: Work Experiences
             <h2>Tata Group | GenAI Powered Data Analytics Job Simulation on Forage</h2>
             <ul class="exp-bullets">
                 <li>
-                Exploratory Data Analysis (EDA): Applied GenAI-integrated workflows to assess data 	quality and identify key risk indicators, providing a solid foundation for predictive modeling in financial services.
+                    <strong>Exploratory Data Analysis (EDA):</strong> Applied GenAI-integrated workflows to assess data quality and identify key risk indicators, providing a solid foundation for predictive modeling in financial services.
                 </li>
                 <li>
-                Predictive Modeling Framework: Engineered a no-code predictive framework to evaluate customer delinquency risk. Utilized GenAI to structure complex model logic and establish rigorous evaluation criteria.
+                    <strong>Predictive Modeling Framework:</strong> Engineered a no-code predictive framework to evaluate customer delinquency risk. Utilized GenAI to structure complex model logic and establish rigorous evaluation criteria.
                 </li>
-                <li>AI-Driven Collections Strategy: Architected an automated collections strategy leveraging Agentic AI. Integrated Ethical AI principles and regulatory compliance into a scalable implementation framework for financial stability.
+                <li>
+                    <strong>AI-Driven Collections Strategy:</strong> Architected an automated collections strategy leveraging <u>Agentic AI</u>. Integrated Ethical AI principles and regulatory compliance into a scalable implementation framework for financial stability.
                 </li>
             </ul>
             <a href="#" class="btn-view" target="_blank">Credential ↗</a>
@@ -30,16 +31,16 @@ title: Work Experiences
             <p class="exp-subtitle">Windows Application Development & Systems Analysis</p>
             <ul class="exp-bullets">
                 <li>
-                Software Development (VB.NET & SQL): Developed Windows applications using VB.NET and managed databases with MS SQL Server 2014, focusing on efficient system logic and data storage.
+                    <strong>Software Development (VB.NET & SQL):</strong> Developed Windows applications using <u>VB.NET</u> and managed databases with <u>MS SQL Server 2014</u>, focusing on efficient system logic and data storage.
                 </li>
                 <li>
-                Requirements Analysis: Gathered and analyzed user requirements from stakeholders to define system functionality and project scope.
+                    <strong>Requirements Analysis:</strong> Gathered and analyzed user requirements from stakeholders to define system functionality and project scope.
                 </li>
                 <li>
-                Project Planning & QA: Planned development schedules using MS Project and conducted Unit Testing to ensure software reliability before deployment.
+                    <strong>Project Planning & QA:</strong> Planned development schedules using <u>MS Project</u> and conducted Unit Testing to ensure software reliability before deployment.
                 </li>
                 <li>
-                Team Collaboration: Participated in technical meetings with developers and users to ensure project alignment and smooth implementation.
+                    <strong>Team Collaboration:</strong> Participated in technical meetings with developers and users to ensure project alignment and smooth implementation.
                 </li>
             </ul>
             <a href="#" class="btn-view" target="_blank">Credential ↗</a>
