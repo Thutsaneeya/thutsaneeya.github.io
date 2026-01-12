@@ -1,0 +1,121 @@
+/* 1. Header & Title */
+.portfolio-header
+  text-align: center
+  padding: 60px 0 30px 0
+
+  h1
+    font-size: 3.5rem !important
+    font-weight: 900 !important
+    color: $port-primary !important
+    margin: 0 !important
+    text-transform: uppercase
+    letter-spacing: -1.5px
+
+  .divider
+    width: 60px
+    height: 4px
+    background: $port-primary
+    margin: 20px auto
+    border-radius: 10px
+
+/* 2. Grid 2x2 Layout */
+.project-grid
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  gap: 25px
+  margin-top: 20px
+
+  @media (max-width: 768px)
+    grid-template-columns: 1fr
+
+/* 3. Project Card */
+.project-card
+  background: rgba(255, 255, 255, 0.02)
+  border: 1px solid $port-accent
+  border-radius: 20px
+  padding: 35px 25px
+  text-align: center
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+  display: flex
+  flex-direction: column
+  align-items: center
+  text-decoration: none !important
+
+  &:hover
+    transform: translateY(-10px)
+    border-color: #999
+    background: rgba(63, 81, 181, 0.05)
+    box-shadow: 0 15px 30px rgba(63, 81, 181, 0.2)
+    
+    .tech-badge
+      border-color: #5c6bc0
+      background: rgba(63, 81, 181, 0.25)
+      box-shadow: 0 0 10px rgba(92, 107, 192, 0.3)
+      color: #ffffff
+
+  .project-emoji
+    font-size: 45px
+    margin-bottom: 20px
+
+  h2
+    font-size: 1.5rem !important
+    font-weight: 800 !important
+    color: $port-text-h !important
+    margin: 0 0 5px 0 !important
+    line-height: 1.2 !important
+    min-height: 3.6rem
+    display: flex
+    align-items: center
+    justify-content: center
+
+  h3
+    font-size: 0.95rem !important
+    font-weight: 500 !important
+    color: #9fa8da !important
+    margin: 0 0 15px 0 !important
+    text-transform: uppercase
+    letter-spacing: 1px
+
+  p
+    font-size: 1.15rem !important
+    color: $port-text-p !important
+    line-height: 1.7 !important
+    margin-bottom: 25px !important
+    font-weight: 400
+    max-width: 90%
+    min-height: 4.5rem
+
+/* 4. Tech Stack */
+.tech-stack
+  display: flex
+  flex-wrap: wrap
+  gap: 8px
+  justify-content: center
+  margin-top: 20px
+  margin-bottom: 35px
+
+.tech-badge
+  background: $port-tag-bg
+  color: #c5cae9
+  border: 1px solid rgba(63, 81, 181, 0.4)
+  padding: 4px 12px
+  border-radius: 50px
+  font-size: 0.75rem
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 0.5px
+  transition: all 0.3s ease
+
+/* 5. Action Buttons */
+.project-actions
+  display: flex
+  gap: 12px
+
+.btn-view, .btn-demo
+  padding: 8px 18px
+  border-radius: 50px
+  font-size: 0.85rem
+  font-weight: 700
+  text-decoration: none !important
+  border: 1px solid rgba(63, 81, 181, 0.5)
+  color: #9fa8da !important
