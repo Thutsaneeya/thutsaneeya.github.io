@@ -26,7 +26,7 @@ title: Work Experiences
         <div class="timeline-content">
             <span class="emoji">🎨</span>
             <span class="date">July - October 2020</span>
-            <h2>IT Trainee | Transitions Optical (Thailand) (Internship)</h2>
+            <h2>IT Trainee | Transitions Optical (Thailand) LTD. (Internship)</h2>
             <p class="exp-subtitle">Windows Application Development & Systems Analysis</p>
             <ul class="exp-bullets">
                 <li>

@@ -1,9 +1,8 @@
 .main-timeline
     position: relative
     padding: 40px 0
-    margin-left: 20px // เว้นที่ให้เส้น Timeline ฝั่งซ้าย
+    margin-left: 20px
 
-    // เส้นแนวตั้ง (ตรงเป๊ะยาวลงมา)
     &::before
         content: ''
         position: absolute
@@ -11,25 +10,24 @@
         top: 0
         bottom: 0
         width: 2px
-        background: rgba($alpha, 0.3) // เส้นสีจางๆ ในธีม Indigo
+        background: rgba($delta, 0.3) 
 
 .timeline-box
     position: relative
-    padding-left: 40px   // เว้นที่จากเส้นมาหาเนื้อหา
-    margin-bottom: 60px  // *** ช่องว่างระหว่างก้อนข้างล่าง (ปรับเลขนี้ได้แก) ***
-    text-align: left     // ชิดซ้ายหมดทุกก้อน!
+    padding-left: 40px   
+    margin-bottom: 60px  
+    text-align: left     
 
-    // จุดกลมๆ บนเส้น Timeline
     &::after
         content: ''
         position: absolute
-        left: -5px       // ให้จุดทับอยู่บนเส้นพอดี (ครึ่งนึงของขนาดจุด)
-        top: 10px        // ปรับความสูงจุดให้ตรงกับบรรทัดแรก
+        left: -5px       
+        top: 10px        
         width: 12px
         height: 12px
-        background: $alpha
+        background: $delta
         border-radius: 50%
-        box-shadow: 0 0 10px rgba($alpha, 0.5)
+        box-shadow: 0 0 10px rgba($delta, 0.5)
 
 .timeline-content
 
