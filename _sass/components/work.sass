@@ -1,0 +1,29 @@
+.exp-bullets
+    list-style: none
+    padding: 0
+    margin: 15px 0
+    text-align: inherit // ให้มันเอียงตามฝั่ง (ซ้ายเอียงขวา ขวาเอียงซ้าย)
+
+    li
+        font-size: 1.3rem
+        margin-bottom: 8px
+        opacity: 0.9
+        position: relative
+        
+        // ใส่จุดกลมๆ หน้า Bullet แบบ Minimal
+        &::before
+            content: '•'
+            color: $alpha
+            margin-right: 8px
+            font-weight: bold
+
+// สำหรับก้อนที่อยู่ฝั่งซ้าย ให้เนื้อหาชิดขวา
+.timeline-box.left
+    .timeline-content
+        text-align: right
+    .exp-bullets li::before
+        display: none // ฝั่งซ้ายเอาจุดไปไว้ข้างหลังแทน
+    .exp-bullets li::after
+        content: '•'
+        color: $alpha
+        margin-left: 8px
