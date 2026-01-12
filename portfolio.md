@@ -2,8 +2,8 @@
 layout: page
 title: Portfolio
 ---
-<style>
-  /* 1. Header & Title */
+/*<style>
+   1. Header & Title 
   .portfolio-header {
     text-align: center;
     padding: 60px 0 30px 0;
@@ -26,7 +26,7 @@ title: Portfolio
     border-radius: 10px;
   }
 
-  /* 2. Grid 2x2 Layout */
+  2. Grid 2x2 Layout 
   .project-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -34,7 +34,7 @@ title: Portfolio
     margin-top: 20px;
   }
 
-  /* 3. project card */
+  3. project card 
   .project-card {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid #9300ff/*solid rgba(63, 81, 181, 0.3)*/;
@@ -91,7 +91,7 @@ title: Portfolio
     min-height: 4.5rem;          
   }
 
-/* 4. Tech Stack */
+4. Tech Stack 
   .tech-stack {
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +101,7 @@ title: Portfolio
     margin-bottom: 35px;
   }
 
-  /* Tag */
+  Tag 
   .tech-badge {
     background: rgba(63, 81, 181, 0.15); 
     color: #c5cae9; /* text */
@@ -115,7 +115,7 @@ title: Portfolio
     transition: all 0.3s ease;
   }
 
-  /*  hover */
+  hover 
   .project-card:hover .tech-badge {
     border-color: #5c6bc0;
     background: rgba(63, 81, 181, 0.25);
@@ -123,7 +123,7 @@ title: Portfolio
     color: #ffffff;
   }
   
-  /* 5. Action */
+   5. Action 
   .project-actions {
     display: flex;
     gap: 12px;
@@ -142,16 +142,17 @@ title: Portfolio
     color: #9fa8da !important;
   }
 
-  /*.btn-demo {
+  .btn-demo {
     background: #3f51b5;
     color: white !important;
   }
 
-  /* มือถือเหลือ 1 คอลัมน์ */
+  มือถือเหลือ 1 คอลัมน์ 
   @media (max-width: 768px) {
     .project-grid { grid-template-columns: 1fr; }
   }
 </style>
+*/
 
 <div class="project-grid">
 
