@@ -8,13 +8,18 @@ title: Work Experiences
         <div class="timeline-content">
             <span class="emoji">🚀</span>
             <span class="date">October 2025</span>
-            <h2>Tata Group Data Analytics Job Simulation</h2>
+            <h2>Tata Group Data Analytics Job Simulation on Forage</h2>
             <ul class="exp-bullets">
-                <li>Exploratory Data Analysis (EDA): Applied GenAI-integrated workflows to assess data quality and identify key risk indicators...</li>
-                <li>Predictive Modeling Framework: Engineered a no-code predictive framework to evaluate customer delinquency risk...</li>
-                <li>AI-Driven Collections Strategy: Architected an automated collections strategy leveraging Agentic AI...</li>
+                <li>
+                Exploratory Data Analysis (EDA): Applied GenAI-integrated workflows to assess data 	quality and identify key risk indicators, providing a solid foundation for predictive modeling in financial services.
+                </li>
+                <li>
+                Predictive Modeling Framework: Engineered a no-code predictive framework to evaluate customer delinquency risk. Utilized GenAI to structure complex model logic and establish rigorous evaluation criteria.
+                </li>
+                <li>AI-Driven Collections Strategy: Architected an automated collections strategy leveraging Agentic AI. Integrated Ethical AI principles and regulatory compliance into a scalable implementation framework for financial stability.
+                </li>
             </ul>
-            <a href="https://www.theforage.com/..." class="cert-btn" target="_blank">Credential ↗</a>
+            <a href="#" class="cert-btn" target="_blank">Credential ↗</a>
         </div>
     </div>
     <div class="timeline-box right">
