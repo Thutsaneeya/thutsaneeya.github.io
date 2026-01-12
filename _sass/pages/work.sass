@@ -10,13 +10,19 @@
         top: 0
         bottom: 0
         width: 2px
-        background: rgba($delta, 0.3) 
+        background: rgba($gama, 0.3) 
 
 .timeline-box
     position: relative
     padding-left: 40px   
     margin-bottom: 60px  
-    text-align: left     
+    text-align: left
+    transition: all 0.3s ease-in-out
+
+    &:hover
+        transform: translateX(10px) 
+        .emoji
+            filter: drop-shadow(0 0 5px $alpha) 
 
     &::after
         content: ''

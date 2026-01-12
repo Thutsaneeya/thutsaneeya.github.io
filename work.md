@@ -42,7 +42,7 @@ title: Work Experiences
                 Team Collaboration: Participated in technical meetings with developers and users to ensure project alignment and smooth implementation.
                 </li>
             </ul>
-            <a href="#" class="class=btn-view" target="_blank">Credential ↗</a>
+            <a href="#" class="btn-view" target="_blank">Credential ↗</a>
         </div>
     </div>
 </div>
