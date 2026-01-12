@@ -4,7 +4,7 @@ title: Work Experiences
 ---
 
 <div class="main-timeline">
-    <div class="timeline-box left">
+    <div class="timeline-box">
         <div class="timeline-content">
             <span class="emoji">🚀</span>
             <span class="date">October 2025</span>
@@ -22,16 +22,25 @@ title: Work Experiences
             <a href="#" class="cert-btn" target="_blank">Credential ↗</a>
         </div>
     </div>
-    <div class="timeline-box right">
+    <div class="timeline-box">
         <div class="timeline-content">
             <span class="emoji">🎨</span>
             <span class="date">July - October 2020</span>
-            <h2>IT Trainee | Transitions Optical (Thailand)</h2>
+            <h2>IT Trainee | Transitions Optical (Thailand) (Internship)</h2>
             <p class="exp-subtitle">Windows Application Development & Systems Analysis</p>
             <ul class="exp-bullets">
-                <li>Software Development (VB.NET & SQL): Developed Windows applications using VB.NET and managed MS SQL Server 2014...</li>
-                <li>Requirements Analysis: Gathered and analyzed user requirements from stakeholders to define system functionality...</li>
-                <li>Project Planning & QA: Planned development schedules using MS Project and conducted Unit Testing...</li>
+                <li>
+                Software Development (VB.NET & SQL): Developed Windows applications using VB.NET and managed databases with MS SQL Server 2014, focusing on efficient system logic and data storage.
+                </li>
+                <li>
+                Requirements Analysis: Gathered and analyzed user requirements from stakeholders to define system functionality and project scope.
+                </li>
+                <li>
+                Project Planning & QA: Planned development schedules using MS Project and conducted Unit Testing to ensure software reliability before deployment.
+                </li>
+                <li>
+                Team Collaboration: Participated in technical meetings with developers and users to ensure project alignment and smooth implementation.
+                </li>
             </ul>
             <a href="#" class="cert-btn" target="_blank">Credential ↗</a>
         </div>
