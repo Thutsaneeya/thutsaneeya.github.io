@@ -1,4 +1,4 @@
 ---
-title: Work
 layout: page
+title: Work Experiences
 ---
