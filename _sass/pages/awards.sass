@@ -20,6 +20,14 @@
   grid-template-columns: repeat(3, 1fr) 
   gap: 30px
   margin-bottom: 50px
+  
+  // เจาะจงแก้เฉพาะสิ่งที่อยู่ใน badge-grid เท่านั้น
+  iframe, .credly-badge-embed, div[data-iframe-width]
+    width: 100% !important       // บังคับกว้างเต็ม 1 คอลัมน์ (1/3 ของ 1200px)
+    min-width: 100% !important   // ป้องกันมันหดกลับ
+    max-width: 100% !important   // ปลดล็อคที่ Credly จำกัดไว้
+    margin: 0 auto !important
+    display: block
 
 .cert-grid
   display: grid
