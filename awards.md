@@ -5,6 +5,7 @@ title: Awards
 
 <div class="awards-wrapper">
     <section class="award-section">
+        <div class="cert-icon">🎯</div>
         <h2 class="section-title">Digital Badges</h2>
         <div class="badge-grid">
             <div class="badge-item">
