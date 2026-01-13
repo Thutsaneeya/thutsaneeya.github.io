@@ -18,26 +18,24 @@
 .badge-grid
   display: grid
   grid-template-columns: repeat(3, 1fr) 
-  gap: 20px 30px 
-  margin-bottom: 50px
+  gap: 10px 30px   
+  margin-bottom: 30px
 
   .badge-item
-    background: $omega !important 
-    border-radius: 16px !important 
-    overflow: hidden 
+    background: $omega !important
+    border-radius: 12px
+    padding: 10px
     width: 100%
-    padding: 10px 
-    box-sizing: border-box 
-  
-    iframe, .credly-badge-embed, div[data-iframe-width]
-      width: 100% !important       
-      min-width: 100% !important   
-      max-width: 100% !important   
-      margin: 0 auto !important
-      display: block
-      min-height: 320px !important 
+    display: block
+    box-sizing: border-box
+    min-height: 340px !important 
+    
+    iframe, .credly-badge-embed
+      width: 100% !important
+      height: 320px !important 
+      display: block !important
       border: none !important
-      border-radius: 12px !important 
+      margin: 0 !important
 
 .cert-grid
   display: grid
