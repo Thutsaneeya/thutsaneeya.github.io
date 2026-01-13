@@ -7,7 +7,7 @@ title: Awards
     <!-- Digital Badges-->
     <section class="award-section">
         <h2 class="section-title">
-            <span class="cert-icon">🎓</span>Digital Badges
+            🎯 Digital Badges
         </h2>
         <div class="badge-grid">
             <div class="badge-item">
@@ -44,7 +44,7 @@ title: Awards
     <hr class="section-divider">
     <section class="award-section">
         <h2 class="section-title">
-            <span class="cert-icon">🎓</span> Academic Certifications
+            🎓 Academic Certifications
         </h2>
         <div class="cert-grid">
             <div class="cert-card">
