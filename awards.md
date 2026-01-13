@@ -7,18 +7,18 @@ title: Awards
     <section class="award-section">
         <h2 class="section-title">Digital Badges</h2>
         <div class="badge-grid">
-            <div class="badge-item">
+            <!--<div class="badge-item">-->
                 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="32b2c51a-9480-4a39-bbaf-550ac569169d" data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </div>
-            <div class="badge-item">
+            <!--</div>-->
+            <!--<div class="badge-item">-->
                 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9aac9ce6-cf9d-403f-9ee1-baaff47e9e73" data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </div>
-            <div class="badge-item">
+            <!--</div>-->
+            <!--<div class="badge-item">-->
                 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a3bd1817-c9ba-4fe2-b454-c3f03808d231" data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </div>
+            <!--</div>-->
             <div class="badge-item">
                 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8f965ffc-f3a0-4c14-b8bb-0cdc2a1c9933" data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
