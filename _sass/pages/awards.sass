@@ -1,35 +1,43 @@
-.award-link
-  color: #fff
-  text-decoration: none
-  position: relative
-  transition: color 0.3s ease
-  display: inline-block
+.awards-wrapper
+  padding: 20px 0
 
-  &::after
-    content: ''
-    position: absolute
-    width: 0
-    height: 1px
-    bottom: -2px
-    left: 0
-    background-color: $delta 
-    transition: width 0.3s ease
+.section-title
+  color: $alpha
+  font-size: 1.8rem
+  margin-bottom: 30px
+  display: flex
+  align-items: center
+  gap: 15px
+  .count
+    font-size: 1rem
+    opacity: 0.5
+    color: #fff
 
+.badge-grid
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))
+  gap: 30px
+  margin-bottom: 50px
+
+.cert-grid
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))
+  gap: 20px
+
+.cert-card
+  background: rgba(255, 255, 255, 0.05)
+  border: 1px solid rgba($alpha, 0.2)
+  padding: 20px
+  border-radius: 12px
+  display: flex
+  align-items: center
+  gap: 15px
+  transition: 0.3s
   &:hover
-    color: $alpha
-    &::after
-      width: 100%
+    background: rgba($alpha, 0.1)
+    transform: translateY(-3px)
 
-.award-org
-  color: $beta
-  font-size: 0.85rem
-  text-transform: uppercase
-  letter-spacing: 1px
-  margin-bottom: 5px
-  font-weight: 600
-
-.award-date
-  font-size: 0.85rem
-  color: rgba(232, 234, 246, 0.6)
-  display: block
-  margin-top: 8px
+.section-divider
+  border: 0
+  border-top: 1px solid rgba(255, 255, 255, 0.1)
+  margin: 40px 0
