@@ -7,7 +7,7 @@ title: Work Experiences
     <div class="timeline-box">
         <div class="timeline-content">
             <span class="project-emoji">🚀</span>
-            <h3>October 2025</h3>
+            <h3 class="date">October 2025</h3>
             <h2>Tata Group | GenAI Powered Data Analytics Job Simulation on Forage</h2>
             <ul class="exp-bullets">
                 <li>
@@ -26,7 +26,7 @@ title: Work Experiences
     <div class="timeline-box">
         <div class="timeline-content">
             <span class="project-emoji">🎨</span>
-            <h3>July - October 2020</h3>
+            <h3 class="date">July - October 2020</h3>
             <h2>Transitions Optical (Thailand) LTD. | IT Trainee (Internship)</h2>
             <p class="exp-subtitle">Windows Application Development & Systems Analysis</p>
             <ul class="exp-bullets">
