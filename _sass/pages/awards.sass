@@ -18,18 +18,23 @@
 .badge-grid
   display: grid
   grid-template-columns: repeat(3, 1fr) 
-  gap: 20px 30px
+  gap: 15px 30px // ปรับ 15px เพื่อให้แถวบน-ล่างชิดกันมากขึ้น
   margin-bottom: 50px
+
+  .badge-item
+    background: $omega !important 
+    border-radius: 12px
+    overflow: hidden
+    width: 100%
   
-  iframe, .credly-badge-embed, div[data-iframe-width]
-    background: $omega !important
-    width: 100% !important       
-    min-width: 100% !important   
-    max-width: 100% !important   
-    margin: 0 auto !important
-    display: block
-    min-height: 350px !important  
-    border: none !important
+    iframe, .credly-badge-embed, div[data-iframe-width]
+      width: 100% !important       
+      min-width: 100% !important   
+      max-width: 100% !important   
+      margin: 0 auto !important
+      display: block
+      min-height: 320px !important // ลดลงมาหน่อยจาก 350px จะได้ไม่ห่างกันเกินไป
+      border: none !important
 
 .cert-grid
   display: grid
