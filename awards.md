@@ -4,6 +4,7 @@ title: Awards
 ---
 
 <div class="awards-wrapper">
+    <!-- Digital Badges-->
     <section class="award-section">
         <div class="cert-icon">🎯</div>
         <h2 class="section-title">Digital Badges</h2>
@@ -38,6 +39,7 @@ title: Awards
         </div>
         <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
     </section>
+    <!-- Academic Certifications -->
     <hr class="section-divider">
     <section class="award-section">
         <div class="cert-icon">🎓</div>

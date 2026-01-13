@@ -1,14 +1,17 @@
+// 1.
 .awards-wrapper
   //max-width: 900px 
   margin: 0 auto
   padding: 40px 20px
 
+// 2. Header
 .section-header
   display: flex
   align-items: center 
   gap: 12px 
   margin-bottom: 30px 
 
+// 3. icon
 .cert-icon
   font-size: 1.8rem 
   display: flex
@@ -19,32 +22,28 @@
   height: 50px
   border-radius: 50%
 
+// 4. Title
 .section-title
-  margin-bottom: 0 !important // ลบ margin ล่างออกเพราะเราไปคุมที่ .section-header แทนแล้ว
   color: $port-text-h
   font-size: 1.8rem
+  margin: 0 !important // clear margin
   display: flex
   align-items: center
   gap: 15px
 
-.section-title
-  color: $port-text-h
-  font-size: 1.8rem
-  margin-bottom: 30px
-  display: flex
-  align-items: center
-  gap: 15px
   .count
     font-size: 1rem
     opacity: 0.5
     color: $omega
 
+// 5. Digital Badges
 .badge-grid
   display: grid
   grid-template-columns: repeat(3, 1fr) 
   gap: 15px 15px 
   margin-bottom: 50px
 
+  // Badge item
   .badge-item
     background: $port-text-h !important 
     border-radius: 15px !important 
@@ -63,6 +62,7 @@
       background: $port-text-h !important 
       transform: translateY(-8px) scale(1.02)
 
+    // credly iframe
     iframe, .credly-badge-embed
       width: 100% !important
       min-height: 270px !important
@@ -70,6 +70,7 @@
       border: none !important
       margin: 0 !important
 
+// 6. Academic Certifications
 .cert-grid
   display: grid
   grid-template-columns: repeat(2, 1fr) 
@@ -79,6 +80,7 @@
   .badge-grid, .cert-grid
     grid-template-columns: 1fr 
 
+// 7. Certification cards
 .cert-card
   background: rgba(255, 255, 255, 0.02) 
   border: 1px solid rgba($gama, 0.1) 
@@ -104,6 +106,37 @@
     &:hover
       text-decoration: underline 
       opacity: 0.8 
+
+  .cert-info
+  display: flex
+  flex-direction: column
+  gap: 4px 
+
+  .award-org
+    color: $omega 
+    font-size: 0.85rem
+    margin: 0
+    text-transform: uppercase
+    letter-spacing: 0.5px
+
+  h3
+    margin: 0
+    font-size: 1.1rem
+    line-height: 1.4
+
+    .award-link
+      color: $port-text-h
+      text-decoration: none
+      transition: all 0.2s ease
+      
+      &:hover
+        text-decoration: underline
+        opacity: 0.8
+
+  .award-date
+    color: rgba($port-text-h, 0.6) // สีจางลงมาหน่อยให้ดูเป็นส่วนเสริม
+    font-size: 0.8rem
+    font-weight: 300
 
 .section-divider
   border: 0
