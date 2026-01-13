@@ -35,7 +35,7 @@ title: Awards
                 </div>
             </div>
         </div>
-          <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
     </section>
     <hr class="section-divider">
     <section class="award-section">
