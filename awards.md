@@ -6,9 +6,7 @@ title: Awards
 <div class="awards-wrapper">
     <!-- Digital Badges-->
     <section class="award-section">
-        <h2 class="section-title">
-            🎯 Digital Badges
-        </h2>
+        <h2 class="section-title">Digital Badges</h2>
         <div class="badge-grid">
             <div class="badge-item">
                 <div data-iframe-width="170" data-iframe-height="270" data-share-badge-id="32b2c51a-9480-4a39-bbaf-550ac569169d" data-share-badge-host="https://www.credly.com">
@@ -43,9 +41,7 @@ title: Awards
     <!-- Academic Certifications -->
     <hr class="section-divider">
     <section class="award-section">
-        <h2 class="section-title">
-            🎓 Academic Certifications
-        </h2>
+        <h2 class="section-title">Academic Certifications</h2>
         <div class="cert-grid">
             <div class="cert-card">
                 <div class="cert-info">
