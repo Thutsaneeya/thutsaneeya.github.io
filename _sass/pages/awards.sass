@@ -1,0 +1,35 @@
+.award-link
+  color: #fff
+  text-decoration: none
+  position: relative
+  transition: color 0.3s ease
+  display: inline-block
+
+  &::after
+    content: ''
+    position: absolute
+    width: 0
+    height: 1px
+    bottom: -2px
+    left: 0
+    background-color: $delta 
+    transition: width 0.3s ease
+
+  &:hover
+    color: $alpha
+    &::after
+      width: 100%
+
+.award-org
+  color: $beta
+  font-size: 0.85rem
+  text-transform: uppercase
+  letter-spacing: 1px
+  margin-bottom: 5px
+  font-weight: 600
+
+.award-date
+  font-size: 0.85rem
+  color: rgba(232, 234, 246, 0.6)
+  display: block
+  margin-top: 8px
