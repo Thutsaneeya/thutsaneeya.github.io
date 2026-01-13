@@ -39,10 +39,10 @@ title: Awards
     </section>
     <hr class="section-divider">
     <section class="award-section">
+        <div class="cert-icon">🎓</div>
         <h2 class="section-title">Academic Certifications</h2>
         <div class="cert-grid">
             <div class="cert-card">
-                <div class="cert-icon">🎓</div>
                 <div class="cert-info">
                     <p class="award-org">Chulalongkorn University (CHULA MOOC)</p>
                     <h3>
@@ -54,7 +54,6 @@ title: Awards
                 </div>
             </div>
             <div class="cert-card">
-                <div class="cert-icon">🎓</div>
                 <div class="cert-info">
                     <p class="award-org">Chulalongkorn University (CHULA MOOC)</p>
                     <h3>
@@ -66,7 +65,6 @@ title: Awards
                 </div>
             </div>
             <div class="cert-card">
-                <div class="cert-icon">🎓</div>
                 <div class="cert-info">
                     <p class="award-org">Chiang Mai University (THAI MOOC)</p>
                     <h3>
@@ -78,7 +76,6 @@ title: Awards
                 </div>
             </div>
             <div class="cert-card">
-                <div class="cert-icon">🎓</div>
                 <div class="cert-info">
                     <p class="award-org">University of California, Davis (Coursera)</p>
                     <h3>
