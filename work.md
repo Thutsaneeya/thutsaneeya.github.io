@@ -7,11 +7,11 @@ title: Work Experiences
     <div class="timeline-box">
         <div class="timeline-content">
             <span class="project-emoji">🚀</span>
-            <h3 class="date">October 2025</h3>
+            <span class="date">October 2025</span>
             <h2>Tata Group | GenAI Powered Data Analytics Job Simulation on Forage</h2>
             <ul class="exp-bullets">
                 <li>
-                    <strong>Exploratory Data Analysis (EDA):</strong> Applied <strong>GenAI-integrated workflows</strong> to assess data quality and identify <stong>key risk indicators</strong>, providing a solid foundation for predictive modeling in <u>financial services</u>.
+                    <strong>Exploratory Data Analysis (EDA):</strong> Applied <strong>GenAI-integrated workflows</strong> to assess data quality and identify <strong>key risk indicators</strong>, providing a solid foundation for predictive modeling in <u>financial services</u>.
                 </li>
                 <li>
                     <strong>Predictive Modeling Framework:</strong> Engineered a <strong>no-code predictive framework</strong> to evaluate <u>customer delinquency risk</u>. Utilized GenAI to structure complex model logic and establish rigorous evaluation criteria.
@@ -26,7 +26,7 @@ title: Work Experiences
     <div class="timeline-box">
         <div class="timeline-content">
             <span class="project-emoji">🎨</span>
-            <h3 class="date">July - October 2020</h3>
+            <span class="date">July - October 2020</span>
             <h2>Transitions Optical (Thailand) LTD. | IT Trainee (Internship)</h2>
             <p class="exp-subtitle">Windows Application Development & Systems Analysis</p>
             <ul class="exp-bullets">
