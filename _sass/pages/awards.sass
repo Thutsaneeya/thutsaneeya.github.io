@@ -4,7 +4,7 @@
   padding: 40px 20px
 
 .section-title
-  color: $alpha
+  color: $port-text-h
   font-size: 1.8rem
   margin-bottom: 30px
   display: flex
@@ -13,7 +13,7 @@
   .count
     font-size: 1rem
     opacity: 0.5
-    color: #fff
+    color: $omega
 
 .badge-grid
   display: grid
@@ -21,28 +21,13 @@
   gap: 30px
   margin-bottom: 50px
   
-  // เจาะจงแก้สิ่งที่อยู่ใน badge-grid
   iframe, .credly-badge-embed, div[data-iframe-width]
+    background: $omega !important
     width: 100% !important       
     min-width: 100% !important   
     max-width: 100% !important   
     margin: 0 auto !important
     display: block
-    
-    // --- จุดที่แกต้องเพิ่ม/แก้ ---
-    min-height: 340px !important // บังคับให้กรอบยาวขึ้นเพื่อให้ชื่อที่ตบลงมาโชว์ครบ (ปรับเลขนี้ได้แก)
-    border-radius: 12px !important // ลบมุมแหลมของกรอบขาวให้ดูละมุนขึ้น
-    
-    // ถ้าตัว Badge ข้างในยังดูเล็กหรือเบียด ให้ใช้ท่านี้ขยายมันแก
-    transform: scale(1.05) 
-    transform-origin: center top
-    // -------------------------
-
-  // เพิ่มเติม: ถ้าในมือถือมันเบียดจนชื่อหาย ให้ปรับเป็น 1 คอลัมน์
-  @media (max-width: 768px)
-    grid-template-columns: 1fr
-    iframe, .credly-badge-embed
-      min-height: 380px !important // ในมือถืออาจจะต้องยาวกว่านี้หน่อย
 
 .cert-grid
   display: grid
