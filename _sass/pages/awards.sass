@@ -31,11 +31,6 @@
   align-items: center
   gap: 15px
 
-  .count
-    font-size: 1rem
-    opacity: 0.5
-    color: $omega
-
 // 5. Digital Badges
 .badge-grid
   display: grid
@@ -84,10 +79,12 @@
 .cert-card
   background: rgba(255, 255, 255, 0.02) 
   border: 1px solid rgba($gama, 0.1) 
-  padding: 20px
+  min-height: 180px
+  padding: 30px
   border-radius: 12px
   display: flex
   align-items: center
+  justify-content: flex-start
   gap: 15px
   transition: all 0.3s ease
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05)
@@ -98,47 +95,43 @@
     transform: translateY(-5px)
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2)
 
-  a
-    text-decoration: none 
-    color: #delta 
-    transition: all 0.2s ease
-    
-    &:hover
-      text-decoration: underline 
-      opacity: 0.8 
-
+  // Certifications information
   .cert-info
-  display: flex
-  flex-direction: column
-  gap: 4px 
+    text-align: left
+    display: flex
+    flex-direction: column
+    gap: 8px 
 
-  .award-org
-    color: $omega 
-    font-size: 0.85rem
-    margin: 0
-    text-transform: uppercase
-    letter-spacing: 0.5px
+  // University
+    .award-org
+      color: $omega 
+      font-size: 1rem
+      margin: 0
+      text-transform: uppercase
+      letter-spacing: 0.5px
 
-  h3
-    margin: 0
-    font-size: 1.1rem
-    line-height: 1.4
+    h3
+      margin: 0
+      font-size: 1.4rem
+      line-height: 1.4
 
-    .award-link
-      color: $port-text-h
-      text-decoration: none
-      transition: all 0.2s ease
-      
-      &:hover
-        text-decoration: underline
-        opacity: 0.8
+      .award-link
+        color: $port-text-h
+        text-decoration: none
+        transition: all 0.2s ease
+        
+        &:hover
+          text-decoration: underline
+          opacity: 0.8
 
-  .award-date
-    color: rgba($port-text-h, 0.6) // สีจางลงมาหน่อยให้ดูเป็นส่วนเสริม
-    font-size: 0.8rem
-    font-weight: 300
+    // Date
+    .award-date
+      color: rgba($port-text-h, 0.6)
+      font-size: 0.95rem
+      font-weight: 300
 
+// 8. Divider 
 .section-divider
   border: 0
   border-top: 1px solid rgba(255, 255, 255, 0.1)
-  margin: 40px 0
+  margin: 60px 0 
