@@ -30,7 +30,15 @@
     align-items: center
     min-height: 250px !important 
     box-shadow: 0 4px 10px rgba(0,0,0,0.1) 
-    
+    transition: all 0.3s ease 
+    cursor: pointer
+
+    &:hover
+      transform: translateY(-8px)
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2) 
+      background: #ffffff !important 
+      transform: translateY(-8px) scale(1.02)
+
     iframe, .credly-badge-embed
       width: 100% !important
       min-height: 270px !important
