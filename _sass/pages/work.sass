@@ -52,23 +52,23 @@
 
     // Experiences subtitle
     .exp-subtitle, .date
-        display: block
-        color: #9fa8da !important 
+        display: block 
         font-size: 1.5rem
         font-weight: 600
 
     .exp-subtitle
         margin: -5px 0 15px 0   
         font-style: italic
+        color: #9fa8da !important
 
 
     // Date
     .date
-        //opacity: 0.7            
+        //opacity: 0.7 
+        color: $gama !important           
         margin-bottom: 10px
 
 // Experiences detail
-
 .exp-bullets
     list-style: none
     padding-left: 0
@@ -87,15 +87,17 @@
             color: $alpha
             font-weight: bold
         
+        // Bold
         strong
             color: $port-text-p
             font-weight: 700
             letter-spacing: 0.3px
             margin-right: 4px
 
+        // Underline
         u
             text-decoration: none
-            border-bottom: 1px solid rgba($delta, 1)
+            border-bottom: 1px solid rgba($port-text-h, 1)
             color: $port-text-p
 
         &:hover
