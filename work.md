@@ -20,7 +20,7 @@ title: Work Experiences
                     <strong>AI-Driven Collections Strategy:</strong> Architected an automated collections strategy leveraging <u>Agentic AI</u>. Integrated <u>Ethical AI</u> principles and <strong>regulatory compliance</strong> into a scalable implementation framework for financial stability.
                 </li>
             </ul>
-            <a href="#" class="btn-view" target="_blank">Credential ↗</a>
+            <a href="https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_68c016b0a8bab8f37486792e_1760596551588_completion_certificate.pdf" class="btn-view" target="_blank">Credential ↗</a>
         </div>
     </div>
     <div class="timeline-box">
@@ -43,7 +43,7 @@ title: Work Experiences
                     <strong>Team Collaboration:</strong> Participated in <strong>technical meetings</strong> with developers and users to ensure <u>project alignment</u> and smooth implementation.
                 </li>
             </ul>
-            <a href="#" class="btn-view" target="_blank">Credential ↗</a>
+            <a href="https://drive.google.com/file/d/1XMhsW-LmFxak6syR7wGCEP3vyi3DPmhC/view?usp=drive_link" class="btn-view" target="_blank">Credential ↗</a>
         </div>
     </div>
 </div>
