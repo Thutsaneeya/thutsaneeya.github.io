@@ -38,10 +38,13 @@ title: Awards
         </div>
         <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
     </section>
-    <!-- Academic Certifications -->
+    <!-- Academic Certificates -->
     <hr class="section-divider">
     <section class="award-section">
-        <h2 class="section-title">Academic Certifications</h2>
+        <div class="cert-icon">
+            <i class="fas fa-graduation-cap"></i> 
+        </div> 
+        <h2 class="section-title">Academic Certificates</h2>
         <div class="cert-grid">
             <div class="cert-card">
                 <div class="cert-info">
