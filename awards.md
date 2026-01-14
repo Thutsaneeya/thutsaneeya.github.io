@@ -6,6 +6,9 @@ title: Awards
 <div class="awards-wrapper">
     <!-- Digital Badges-->
     <section class="award-section">
+        <div class="cert-icon">
+            <i class="fas fa-trophy"></i> 
+        </div>
         <h2 class="section-title">Digital Badges</h2>
         <div class="badge-grid">
             <div class="badge-item">
