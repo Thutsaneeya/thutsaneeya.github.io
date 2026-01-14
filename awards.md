@@ -47,7 +47,7 @@ title: Awards
                 <div class="cert-info">
                     <p class="award-org">Chulalongkorn University (CHULA MOOC)</p>
                     <h3>
-                        <a href="#" class="award-link" target="_blank">
+                        <a href="https://drive.google.com/file/d/1Eo-IbYI_cNGP0Szn48o99-P3QqaNhY6n/view?usp=drive_link" class="award-link" target="_blank">
                             Learn Python: Data Processing with NumPy and Matplotlib ↗
                         </a>
                     </h3>
@@ -58,7 +58,7 @@ title: Awards
                 <div class="cert-info">
                     <p class="award-org">Chulalongkorn University (CHULA MOOC)</p>
                     <h3>
-                        <a href="#" class="award-link" target="_blank">
+                        <a href="https://drive.google.com/file/d/14TpnFDDnGV4OqkJPuAF6JMo7WQgRojKM/view?usp=drive_link" class="award-link" target="_blank">
                             Crunching data with Pandas ↗
                         </a>
                     </h3>
@@ -69,7 +69,7 @@ title: Awards
                 <div class="cert-info">
                     <p class="award-org">Chiang Mai University (THAI MOOC)</p>
                     <h3>
-                        <a href="#" class="award-link" target="_blank">
+                        <a href="https://drive.google.com/file/d/1bUtkRLwpZswBgy-7dIN4lyAmTb1J6pvX/view?usp=drive_link" class="award-link" target="_blank">
                             Data Warehouse Fundamentals ↗
                         </a>
                     </h3>
@@ -80,7 +80,7 @@ title: Awards
                 <div class="cert-info">
                     <p class="award-org">University of California, Davis (Coursera)</p>
                     <h3>
-                        <a href="#" class="award-link" target="_blank">
+                        <a href="https://coursera.org/share/048936677323cf8ef098970cabc74ca7" class="award-link" target="_blank">
                             SQL for Data Science ↗
                         </a>
                     </h3>
