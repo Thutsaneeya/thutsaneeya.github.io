@@ -62,7 +62,7 @@ title: Portfolio
     </div>
     <div class="project-actions">
       <a href="https://github.com/Thutsaneeya/mental_health_dashboard" class="btn-view">Code</a>
-      <a href="#" class="btn-demo">Demo</a>
+      <a href="https://thai-mental-health-dashboard.streamlit.app/" class="btn-demo">Demo</a>
     </div>
   </div>
 
