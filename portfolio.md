@@ -3,7 +3,28 @@ layout: page
 title: Portfolio
 ---
 <div class="project-grid">
-
+  <!-- German Credit Risk-->
+  <div class="project-card">
+    <span class="project-emoji">🛠️</span>
+    <h2>Exploring ETL: German Credit Risk</h2>
+    <h3>End-to-End Pipeline & Predictive Modeling</h3>
+    <p>
+      Builds a complete ETL pipeline using the German Credit Dataset. Utilizes DuckDB and SQL for high-performance data transformation, followed by a Logistic Regression model to predict customer credit risk.
+    </p>
+    <div class="tech-stack">
+      <span class="tech-badge">Python</span> 
+      <span class="tech-badge">Pandas</span> 
+      <span class="tech-badge">NumPy</span>
+      <span class="tech-badge">Matplotlib</span> 
+      <span class="tech-badge">Seaborn</span>
+      <span class="tech-badge">DuckDB</span> 
+      <span class="tech-badge">Scikit-learn</span>
+    </div>
+    <div class="project-actions">
+      <a href="https://github.com/Thutsaneeya/german_credit_risk" class="btn-view">Code</a>
+    </div>
+  </div>
+  <!-- Flight pricing-->
   <div class="project-card">
     <span class="project-emoji">✈️</span>
     <h2>Flight Ticket Price Analysis</h2>
@@ -22,7 +43,7 @@ title: Portfolio
       <a href="https://github.com/Thutsaneeya/flight_pricing" target="_blank" class="btn-view">Code</a>
     </div>
   </div>
-
+  <!-- Goodreads -->
   <div class="project-card">
     <span class="project-emoji">📚</span>
     <h2>Reading Behavior Analysis: Mystery, Thriller & Crime</h2>
@@ -44,7 +65,7 @@ title: Portfolio
       <a href="https://github.com/Thutsaneeya/goodreads_by_genre" class="btn-view">Code</a>
     </div>
   </div>
-
+  <!-- Dashboard -->
   <div class="project-card">
     <span class="project-emoji">🍃</span>
     <h2>Thailand Mental Health</h2>
@@ -63,27 +84,6 @@ title: Portfolio
     <div class="project-actions">
       <a href="https://github.com/Thutsaneeya/mental_health_dashboard" class="btn-view">Code</a>
       <a href="https://thai-mental-health-dashboard.streamlit.app/" class="btn-demo">Demo</a>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <span class="project-emoji">🛠️</span>
-    <h2>Exploring ETL: German Credit Risk</h2>
-    <h3>End-to-End Pipeline & Predictive Modeling</h3>
-    <p>
-      Builds a complete ETL pipeline using the German Credit Dataset. Utilizes DuckDB and SQL for high-performance data transformation, followed by a Logistic Regression model to predict customer credit risk.
-    </p>
-    <div class="tech-stack">
-      <span class="tech-badge">Python</span> 
-      <span class="tech-badge">Pandas</span> 
-      <span class="tech-badge">NumPy</span>
-      <span class="tech-badge">Matplotlib</span> 
-      <span class="tech-badge">Seaborn</span>
-      <span class="tech-badge">DuckDB</span> 
-      <span class="tech-badge">Scikit-learn</span>
-    </div>
-    <div class="project-actions">
-      <a href="https://github.com/Thutsaneeya/german_credit_risk" class="btn-view">Code</a>
     </div>
   </div>
 </div>
