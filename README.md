@@ -16,4 +16,4 @@ If you'd like to see the live version, visit:
 [https://thutsaneeya.github.io/]
 
 ---
-*Base theme forked from the original creator. Modified and maintained by [Thutsaneeya]*
+*Base theme forked from the original creator. Modified and maintained by [Thutsaneeya](https://github.com/Thutsaneeya)*
