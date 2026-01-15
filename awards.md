@@ -53,6 +53,7 @@ title: Awards
             <h2 class="section-title">Academic Certificates</h2>
         </div>
         <div class="cert-grid">
+            <!-- CHULA Learn Python: Data Processing with NumPy and Matplotlib March 2025 -->
             <div class="cert-card">
                 <div class="cert-info">
                     <p class="award-org">Chulalongkorn University (CHULA MOOC)</p>
@@ -64,6 +65,7 @@ title: Awards
                     <span class="award-date">March 2025</span>
                 </div>
             </div>
+             <!-- CHULA Crunching data with Pandas January 2025 -->
             <div class="cert-card">
                 <div class="cert-info">
                     <p class="award-org">Chulalongkorn University (CHULA MOOC)</p>
@@ -75,6 +77,7 @@ title: Awards
                     <span class="award-date">January 2025</span>
                 </div>
             </div>
+            <!-- CMU Data Warehouse Fundamentals November 2023 -->
             <div class="cert-card">
                 <div class="cert-info">
                     <p class="award-org">Chiang Mai University (THAI MOOC)</p>
@@ -86,6 +89,7 @@ title: Awards
                     <span class="award-date">November 2023</span>
                 </div>
             </div>
+            <!-- UC, Davis SQL for Data Science June 2023 -->
             <div class="cert-card">
                 <div class="cert-info">
                     <p class="award-org">University of California, Davis (Coursera)</p>
@@ -95,6 +99,42 @@ title: Awards
                         </a>
                     </h3>
                     <span class="award-date">June 2023</span>
+                </div>
+            </div>
+            <!-- King's College London Basic English 2: Pre-Intermediate June 2020-->
+            <div class="cert-card">
+                <div class="cert-info">
+                    <p class="award-org">King's College London (Future Learn)</p>
+                    <h3>
+                        <a href="https://www.futurelearn.com/certificates/ieofc5n" class="award-link" target="_blank">
+                            Basic English 2: Pre-Intermediate
+                        </a>
+                    </h3>
+                    <span class="award-date">June 2020</span>
+                </div>
+            </div>
+            <!-- King's College London Basic English 1: Elementary May 2020-->
+            <div class="cert-card">
+                <div class="cert-info">
+                    <p class="award-org">King's College London (Future Learn)</p>
+                    <h3>
+                        <a href="https://www.futurelearn.com/certificates/0jpc9cm" class="award-link" target="_blank">
+                            Basic English 1: Elementary
+                        </a>
+                    </h3>
+                    <span class="award-date">May 2020</span>
+                </div>
+            </div>
+            <!-- BEI-DA Chinese for Beginners April 2020-->
+            <div class="cert-card">
+                <div class="cert-info">
+                    <p class="award-org">Peking University (Coursera)</p>
+                    <h3>
+                        <a href="https://coursera.org/share/09ee44b479139ae114c2bc8d95f6ed66" class="award-link" target="_blank">
+                            Chinese for Beginners
+                        </a>
+                    </h3>
+                    <span class="award-date">April 2020</span>
                 </div>
             </div>
         </div>
