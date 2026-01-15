@@ -8,7 +8,7 @@ title: Work Experiences
         <!-- Tata -->
         <div class="timeline-content">
             <span class="date">October 2025</span>
-            <h2>Tata Group | GenAI Powered Data Analytics Job Simulation on Forage</h2>
+            <h2>Visual Experience - Tata Group | GenAI Powered Data Analytics (Forage)</h2>
             <ul class="exp-bullets">
                 <li>
                     <strong>Exploratory Data Analysis (EDA):</strong> Applied <strong>GenAI-integrated workflows</strong> to assess data quality and identify <strong>key risk indicators</strong>, providing a solid foundation for predictive modeling in <u>financial services</u>.
@@ -27,7 +27,7 @@ title: Work Experiences
         <!-- Transitions -->
         <div class="timeline-content">
             <span class="date">July - October 2020</span>
-            <h2>Transitions Optical (Thailand) LTD. | IT Trainee (Internship)</h2>
+            <h2>Internship - Transitions Optical (Thailand) LTD. | IT Trainee</h2>
             <p class="exp-subtitle">Windows Application Development & Systems Analysis</p>
             <ul class="exp-bullets">
                 <li>
