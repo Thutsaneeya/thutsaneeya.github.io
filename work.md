@@ -8,7 +8,7 @@ title: Work Experiences
         <!-- Tata -->
         <div class="timeline-content">
             <span class="date">October 2025</span>
-            <h2>Virsual Experience - Tata Group | GenAI Powered Data Analytics (Forage)</h2>
+            <h2>Virsual Experience - Tata Group Data Analytics Job Simulation on Forage</h2>
             <ul class="exp-bullets">
                 <li>
                     Completed a <strong>job simulation</strong> involving <strong>AI-powered data analytics</strong> and <strong>strategy development</strong> for the Financial Services team at <strong>Tata iQ</strong>.
@@ -30,7 +30,7 @@ title: Work Experiences
         <!-- Transitions -->
         <div class="timeline-content">
             <span class="date">July - October 2020</span>
-            <h2>Internship - Transitions Optical (Thailand) LTD. | IT Trainee</h2>
+            <h2>Internship - Transitions Optical (Thailand) LTD.</h2>
             <p class="exp-subtitle">Windows Application Development & Systems Analysis</p>
             <ul class="exp-bullets">
                 <li>
@@ -40,10 +40,10 @@ title: Work Experiences
                     Gathered and analyzed <strong>user requirements</strong> from stakeholders to define <strong>system functionality</strong> and <strong>project scope</strong>.
                 </li>
                 <li>
-                    Planned development schedules using <strong>MS Project</strong> and conducted <strong>Unit Testing</strong> to ensure <strong>software reliability</strong> and <strong>deployment readiness</strong>.
+                    Planned the <strong>project schedule</strong> using <strong>MS Project</strong> and conducted <strong>system unit tests</strong>.
                 </li>
                 <li>
-                    Participated in <strong>technical meetings</strong> with developers and users to ensure <strong>project alignment</strong> and <strong>smooth implementation</strong> of production-ready systems.
+                    Participated in <strong>project meetings</strong> with <strong>technical staff</strong>, <strong>users</strong>, and <strong>stakeholders</strong> to ensure <strong>smooth implementation</strong>.
                 </li>
             </ul>
             <a href="https://drive.google.com/file/d/1XMhsW-LmFxak6syR7wGCEP3vyi3DPmhC/view?usp=drive_link" class="btn-view" target="_blank">Credential ↗</a>
