@@ -9,7 +9,7 @@ title: Portfolio
     <h2>Exploring ETL: German Credit Risk</h2>
     <h3>End-to-End Pipeline & Predictive Modeling</h3>
     <p>
-      Builds a complete ETL pipeline using the German Credit Dataset. Utilizes DuckDB and SQL for high-performance data transformation, followed by a Logistic Regression model to predict customer credit risk.
+      Builds a complete ETL pipeline using the German Credit Dataset. Utilizes DuckDB and SQL for data transformation, followed by a Logistic Regression model to predict customer credit risk.
     </p>
     <div class="tech-stack">
       <span class="tech-badge">Python</span> 
@@ -49,7 +49,7 @@ title: Portfolio
     <h2>Reading Behavior Analysis: Mystery, Thriller & Crime</h2>
     <h3>Sentiment Analysis of Goodreads Dataset</h3>
     <p>
-      Investigates reader preferences in the Mystery & Crime genre using the Goodreads dataset. Analyzes factors like ratings and publication years through EDA, Sentiment Analysis, and WordCloud visualization.
+        Reader preferences in the Mystery & Crime genre using the Goodreads dataset. Analyzed key factors such as ratings and publication trends through EDA, Sentiment Analysis, and WordCloud visualization.
     </p>
     <div class="tech-stack">
       <span class="tech-badge">Python</span> 
