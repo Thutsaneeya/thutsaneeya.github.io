@@ -8,7 +8,7 @@ title: Work Experiences
         <!-- Tata -->
         <div class="timeline-content">
             <span class="date">October 2025</span>
-            <h2>Virsual Experience - Tata Group Data Analytics Job Simulation on Forage</h2>
+            <h2>Virtual Experience - Tata Group Data Analytics Job Simulation on Forage</h2>
             <ul class="exp-bullets">
                 <li>
                     Completed a <strong>job simulation</strong> involving <strong>AI-powered data analytics</strong> and <strong>strategy development</strong> for the Financial Services team at <strong>Tata iQ</strong>.
