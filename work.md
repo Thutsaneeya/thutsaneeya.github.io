@@ -8,16 +8,19 @@ title: Work Experiences
         <!-- Tata -->
         <div class="timeline-content">
             <span class="date">October 2025</span>
-            <h2>Visual Experience - Tata Group | GenAI Powered Data Analytics (Forage)</h2>
+            <h2>Virsual Experience - Tata Group | GenAI Powered Data Analytics (Forage)</h2>
             <ul class="exp-bullets">
                 <li>
-                    <strong>Exploratory Data Analysis (EDA):</strong> Applied <strong>GenAI-integrated workflows</strong> to assess data quality and identify <strong>key risk indicators</strong>, providing a solid foundation for predictive modeling in <u>financial services</u>.
+                    Completed a <strong>job simulation</strong> involving <strong>AI-powered data analytics</strong> and <strong>strategy development</strong> for the Financial Services team at <strong>Tata iQ</strong>.
                 </li>
                 <li>
-                    <strong>Predictive Modeling Framework:</strong> Engineered a <strong>no-code predictive framework</strong> to evaluate <u>customer delinquency risk</u>. Utilized GenAI to structure complex model logic and establish rigorous evaluation criteria.
+                    Conducted <strong>exploratory data analysis (EDA)</strong> using <strong>GenAI tools</strong> to assess <strong>data quality</strong>, identify <strong>risk indicators</strong>, and structure insights for <strong>predictive modeling</strong>.
                 </li>
                 <li>
-                    <strong>AI-Driven Collections Strategy:</strong> Architected an automated collections strategy leveraging <u>Agentic AI</u>. Integrated <u>Ethical AI</u> principles and <strong>regulatory compliance</strong> into a scalable implementation framework for financial stability.
+                    Proposed and justified an initial <strong>no-code predictive modeling framework</strong> to assess <strong>customer delinquency risk</strong>, leveraging <strong>GenAI</strong> for structured <strong>model logic</strong> and evaluation criteria.
+                </li>
+                <li>
+                    Designed an <strong>AI-driven collections strategy</strong> leveraging <strong>agentic AI and automation</strong>, incorporating <strong>ethical AI principles</strong>, <strong>regulatory compliance</strong>, and <strong>scalable implementation frameworks</strong>.
                 </li>
             </ul>
             <a href="https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_68c016b0a8bab8f37486792e_1760596551588_completion_certificate.pdf" class="btn-view" target="_blank">Credential ↗</a>
@@ -31,16 +34,16 @@ title: Work Experiences
             <p class="exp-subtitle">Windows Application Development & Systems Analysis</p>
             <ul class="exp-bullets">
                 <li>
-                    <strong>Software Development (VB.NET & SQL):</strong> Developed Windows applications using <u>VB.NET</u> and managed databases with <u>MS SQL Server 2014</u>, focusing on efficient <strong>system logic</strong> and data storage.
+                    <strong>Developed and successfully published</strong> Windows applications using <strong>VB.NET</strong> and managed databases with <strong>MS SQL Server 2014</strong>.
                 </li>
                 <li>
-                    <strong>Requirements Analysis:</strong> Gathered and analyzed <strong>user requirements</strong> from stakeholders to define system functionality and project scope.
+                    Gathered and analyzed <strong>user requirements</strong> from stakeholders to define <strong>system functionality</strong> and <strong>project scope</strong>.
                 </li>
                 <li>
-                    <strong>Project Planning & QA:</strong> Planned development schedules using <u>MS Project</u> and conducted <u>Unit Testing</u> to ensure <strong>software reliability</strong> before deployment.
+                    Planned development schedules using <strong>MS Project</strong> and conducted <strong>Unit Testing</strong> to ensure <strong>software reliability</strong> and <strong>deployment readiness</strong>.
                 </li>
                 <li>
-                    <strong>Team Collaboration:</strong> Participated in <strong>technical meetings</strong> with developers and users to ensure <u>project alignment</u> and smooth implementation.
+                    Participated in <strong>technical meetings</strong> with developers and users to ensure <strong>project alignment</strong> and <strong>smooth implementation</strong> of production-ready systems.
                 </li>
             </ul>
             <a href="https://drive.google.com/file/d/1XMhsW-LmFxak6syR7wGCEP3vyi3DPmhC/view?usp=drive_link" class="btn-view" target="_blank">Credential ↗</a>
